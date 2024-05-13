@@ -1,0 +1,22 @@
+/*
+Theme Name: Measure Offshore Theme
+Theme URI: https://github.com/gabriiealleal/measure-offshore-theme
+Description: Tema de WordPress para o site da empresa Measure Offshore
+Author: João Gabriel dos Anjos Leal
+Author URI: https://github.com/gabriiealleal/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsivo, negócios, corporativo
+*/
+
+@import 'assets/styles/base/_colors.scss';
+@import 'assets/styles/base/_reset.scss';
+
+@import 'assets/styles/layout/_breakpoint.scss';
+@import 'assets/styles/layout/_grid.scss';
+
+@import 'assets/styles/components/_header.scss';
+
+@import 'assets/styles/pages/_inicio.scss';
+

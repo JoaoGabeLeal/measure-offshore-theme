@@ -1,0 +1,41 @@
+// Definindo variáveis para os pontos de interrupção
+$breakpoints: (
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1024px // Definindo o tamanho máximo de largura do site
+);
+
+// Mixin para regras de mídia query
+@mixin breakpoint($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media (min-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+
+    @else {
+        @error "Breakpoint '#{$breakpoint}' não definido.";
+    }
+}
+
+// Exemplo de uso
+.element {
+    width: 100%;
+
+    @include breakpoint(sm) {
+        width: 50%;
+    }
+
+    @include breakpoint(md) {
+        width: 75%;
+    }
+
+    @include breakpoint(lg) {
+        width: 80%;
+    }
+
+    @include breakpoint(xl) {
+        width: 90%;
+    }
+}
