@@ -1,0 +1,39 @@
+.barra-superior{
+    height: auto;
+    background-color: $roxo;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+    .barra-superior-conteudo{
+        display: flex;
+        justify-content: space-between;
+        .email-telefone{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            .email{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0.5rem;
+                color: $branco;
+                font-weight: bold;
+            }
+            .telefone{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0.5rem;
+                color: $branco;
+                font-weight: bold;
+            }
+        }
+        .redes-sociais{
+            display: none;
+            @include breakpoint(lg){
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+        }
+    }
+}

@@ -13,10 +13,20 @@ Tags: responsivo, negócios, corporativo
 @import 'assets/styles/base/_colors.scss';
 @import 'assets/styles/base/_reset.scss';
 
+@import 'assets/styles/functions/_ellipses.scss';
+@import 'assets/styles/functions/_title.scss';
+
 @import 'assets/styles/layout/_breakpoint.scss';
 @import 'assets/styles/layout/_grid.scss';
 
-@import 'assets/styles/components/_header.scss';
+@import 'assets/styles/components/header/_video.scss';
+@import 'assets/styles/components/header/_barra_superior.scss';
+@import 'assets/styles/components/header/_navbar.scss';
+@import 'assets/styles/components/header/_descricao.scss';
 
-@import 'assets/styles/pages/_inicio.scss';
+@import 'assets/styles/pages/inicio/_catalogo.scss';
+@import 'assets/styles/pages/inicio/_principais-servicos.scss';
+@import 'assets/styles/pages/inicio/_quem-somos.scss';
+@import 'assets/styles/pages/inicio/_noticias.scss';
+
 

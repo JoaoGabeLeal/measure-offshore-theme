@@ -53,6 +53,7 @@ Tags: responsivo, negócios, corporativo
 }
 
 .row {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -237,18 +238,10 @@ Tags: responsivo, negócios, corporativo
   }
 }
 
-.header {
-  height: 30rem;
-}
-@media (min-width: 992px) {
-  .header {
-    height: 40rem;
-  }
-}
-.header .video {
+.video {
   width: 100%;
   height: 30rem;
-  filter: brightness(0.5);
+  filter: contrast(100%);
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
@@ -256,26 +249,27 @@ Tags: responsivo, negócios, corporativo
   z-index: -1;
 }
 @media (min-width: 992px) {
-  .header .video {
+  .video {
     height: 40rem;
   }
 }
-.header .top-bar {
+
+.barra-superior {
   height: auto;
   background-color: #68358D;
   padding-top: 0.8rem;
   padding-bottom: 1rem;
 }
-.header .top-bar .top-bar-content {
+.barra-superior .barra-superior-conteudo {
   display: flex;
   justify-content: space-between;
 }
-.header .top-bar .top-bar-content .email-telefone {
+.barra-superior .barra-superior-conteudo .email-telefone {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
-.header .top-bar .top-bar-content .email-telefone .email {
+.barra-superior .barra-superior-conteudo .email-telefone .email {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,7 +277,7 @@ Tags: responsivo, negócios, corporativo
   color: #ffffff;
   font-weight: bold;
 }
-.header .top-bar .top-bar-content .email-telefone .telefone {
+.barra-superior .barra-superior-conteudo .email-telefone .telefone {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,17 +285,18 @@ Tags: responsivo, negócios, corporativo
   color: #ffffff;
   font-weight: bold;
 }
-.header .top-bar .top-bar-content .redes-sociais {
+.barra-superior .barra-superior-conteudo .redes-sociais {
   display: none;
 }
 @media (min-width: 992px) {
-  .header .top-bar .top-bar-content .redes-sociais {
+  .barra-superior .barra-superior-conteudo .redes-sociais {
     display: flex;
     align-items: center;
     gap: 0.5rem;
   }
 }
-.header .nav {
+
+.navbar {
   width: 100%;
   height: 4.5rem;
   border-bottom: 0.2rem solid #68358D;
@@ -311,64 +306,64 @@ Tags: responsivo, negócios, corporativo
   z-index: 1;
 }
 @media (min-width: 992px) {
-  .header .nav {
+  .navbar {
     position: initial;
     border-bottom: 0;
     overflow: initial;
   }
 }
-.header .nav .nav-brand .logo {
+.navbar .navbar-inicio .logo {
   margin-top: 1.2rem;
 }
-.header .nav .nav-brand .toggle {
+.navbar .navbar-inicio .toggle {
   background: none;
   float: right;
   margin-top: 1.5rem;
 }
-.header .nav .nav-brand .toggle img {
+.navbar .navbar-inicio .toggle img {
   width: 1.5rem;
   filter: invert(100%) sepia(98%) saturate(7%) hue-rotate(168deg) brightness(102%) contrast(106%);
 }
 @media (min-width: 992px) {
-  .header .nav .nav-brand .toggle {
+  .navbar .navbar-inicio .toggle {
     display: none;
   }
 }
-.header .nav .nav-list {
+.navbar .navbar-list {
   margin-top: 1rem;
 }
 @media (min-width: 992px) {
-  .header .nav .nav-list {
+  .navbar .navbar-list {
     margin-top: -1.8rem;
     margin-left: 12rem;
     display: flex;
     gap: 1rem;
   }
 }
-.header .nav .nav-list .nav-item {
+.navbar .navbar-list .navbar-item {
   list-style: none;
   margin-bottom: 1rem;
   position: relative;
 }
 @media (min-width: 992px) {
-  .header .nav .nav-list .nav-item {
+  .navbar .navbar-list .navbar-item {
     height: 3rem;
   }
-  .header .nav .nav-list .nav-item:hover .nav-dropdown {
+  .navbar .navbar-list .navbar-item:hover .navbar-dropdown {
     display: block;
   }
 }
-.header .nav .nav-list .nav-item .nav-link {
+.navbar .navbar-list .navbar-item .navbar-link {
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
   font-size: 1rem;
 }
 @media (min-width: 992px) {
-  .header .nav .nav-list .nav-item .nav-link {
+  .navbar .navbar-list .navbar-item .navbar-link {
     position: relative;
   }
-  .header .nav .nav-list .nav-item .nav-link::before {
+  .navbar .navbar-list .navbar-item .navbar-link::before {
     content: "";
     position: absolute;
     width: 0;
@@ -379,12 +374,12 @@ Tags: responsivo, negócios, corporativo
     background-color: #56B393;
     transition: all 0.3s;
   }
-  .header .nav .nav-list .nav-item .nav-link:hover::before {
+  .navbar .navbar-list .navbar-item .navbar-link:hover::before {
     width: 100%;
     left: 0;
   }
 }
-.header .nav .nav-dropdown {
+.navbar .navbar-dropdown {
   width: 18rem;
   height: 43rem;
   padding: 1rem;
@@ -395,16 +390,16 @@ Tags: responsivo, negócios, corporativo
   position: absolute;
   z-index: 1;
 }
-.header .nav .nav-dropdown .nav-dropdown-titulo {
+.navbar .navbar-dropdown .navbar-dropdown-titulo {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.header .nav .nav-dropdown .nav-dropdown-titulo h1 {
+.navbar .navbar-dropdown .navbar-dropdown-titulo h1 {
   color: #ffffff;
   font-size: 1.5rem;
 }
-.header .nav .nav-dropdown .nav-dropdown-divisor {
+.navbar .navbar-dropdown .navbar-dropdown-divisor {
   width: 100%;
   height: 0.1rem;
   display: block;
@@ -412,14 +407,14 @@ Tags: responsivo, negócios, corporativo
   color: #ffffff;
   text-decoration: underline;
 }
-.header .nav .nav-dropdown .nav-dropdown-list {
+.navbar .navbar-dropdown .navbar-dropdown-list {
   margin-top: 2rem;
 }
-.header .nav .nav-dropdown .nav-dropdown-list .nav-dropdown-item {
+.navbar .navbar-dropdown .navbar-dropdown-list .navbar-dropdown-item {
   list-style: none;
   margin-bottom: 1rem;
 }
-.header .nav .nav-dropdown .nav-dropdown-list .nav-dropdown-item .nav-dropdown-link {
+.navbar .navbar-dropdown .navbar-dropdown-list .navbar-dropdown-item .navbar-dropdown-link {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -427,30 +422,34 @@ Tags: responsivo, negócios, corporativo
   font-size: 1rem;
   text-decoration: none;
 }
-.header .description {
+
+.descricao-separador {
   width: 100%;
-  padding: 1rem;
+  height: 20rem;
   position: relative;
-  margin-top: 8rem;
-}
-@media (min-width: 768px) {
-  .header .description {
-    width: 36.75rem;
-    padding: 1rem;
-    position: relative;
-    margin-top: 9rem;
-    float: right;
-  }
 }
 @media (min-width: 992px) {
-  .header .description {
-    width: 36.75rem;
-    padding: 1rem;
-    position: relative;
-    margin-top: 13.5rem;
+  .descricao-separador {
+    height: 28rem;
   }
 }
-.header .description::before {
+.descricao-separador .descricao {
+  width: 100%;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .descricao-separador .descricao {
+    width: 36.75rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+.descricao-separador .descricao::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -461,18 +460,18 @@ Tags: responsivo, negócios, corporativo
   opacity: 0.05;
   z-index: -1;
 }
-.header .description h1 {
+.descricao-separador .descricao .descricao-titulo {
   text-align: center;
   font-size: 1.5rem;
   color: #ffffff;
 }
 @media (min-width: 768px) {
-  .header .description h1 {
+  .descricao-separador .descricao .descricao-titulo {
     font-size: 2.5rem;
     text-align: start;
   }
 }
-.header .description a {
+.descricao-separador .descricao .descricao-link {
   position: absolute;
   bottom: -3rem;
   right: 0;
@@ -485,7 +484,7 @@ Tags: responsivo, negócios, corporativo
   color: #ffffff;
 }
 @media (min-width: 992px) {
-  .header .description a {
+  .descricao-separador .descricao .descricao-link {
     position: absolute;
     bottom: -1rem;
     right: 1rem;
@@ -495,22 +494,21 @@ Tags: responsivo, negócios, corporativo
 .catalogo {
   width: 100%;
   height: auto;
-  background: url("assets/images/catalogo_linhas.png"), #68358D;
+  background: url("assets/images/catalogo-linhas.png"), #68358D;
   background-size: cover;
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  margin-top: 9rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .catalogo {
-    width: 64rem;
-    height: 352px;
+    height: 23.5rem;
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
   }
 }
 .catalogo .catalogo-descricao {
-  padding: 1rem;
+  padding: 2rem;
 }
 @media (min-width: 992px) {
   .catalogo .catalogo-descricao {
@@ -518,23 +516,23 @@ Tags: responsivo, negócios, corporativo
     padding-left: 7rem;
   }
 }
-.catalogo .catalogo-descricao h1 {
-  width: 65%;
+.catalogo .catalogo-descricao .catalogo-titulo {
   margin-top: 1rem;
   color: #ffffff;
   font-size: 3rem;
+  text-transform: uppercase;
 }
-.catalogo .catalogo-descricao h6 {
-  width: 70%;
+.catalogo .catalogo-descricao .catalogo-descricao {
   color: #ffffff;
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 300 !important;
+  padding: 0;
   margin-top: 1rem;
 }
-.catalogo .catalogo-descricao a {
+.catalogo .catalogo-descricao .catalogo-link {
   width: 7.5rem;
   display: block;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
@@ -552,8 +550,9 @@ Tags: responsivo, negócios, corporativo
 @media (min-width: 992px) {
   .catalogo .catalogo-img {
     width: 28rem;
-    height: 28rem;
-    margin-top: -3rem;
+    height: 32rem;
+    margin-top: -3.5rem;
+    margin-right: -2.8rem;
     display: block;
   }
 }
@@ -570,10 +569,12 @@ Tags: responsivo, negócios, corporativo
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 @media (min-width: 992px) {
   .principais-servicos .principais-servicos-loop {
     flex-wrap: nowrap;
+    justify-content: initial;
   }
 }
 .principais-servicos .principais-servicos-loop .principais-servicos-item {
@@ -603,32 +604,32 @@ Tags: responsivo, negócios, corporativo
     height: 43rem;
   }
 }
-.principais-servicos .principais-servicos-loop .principais-servicos-item img {
+.principais-servicos .principais-servicos-loop .principais-servicos-item .principais-servicos-img {
   width: 100%;
   height: 15rem;
   -o-object-fit: cover !important;
      object-fit: cover !important;
 }
 @media (min-width: 992px) {
-  .principais-servicos .principais-servicos-loop .principais-servicos-item img {
+  .principais-servicos .principais-servicos-loop .principais-servicos-item .principais-servicos-img {
     width: 100%;
     height: auto;
     -o-object-fit: none;
        object-fit: none;
   }
 }
-.principais-servicos .principais-servicos-loop .principais-servicos-item div {
+.principais-servicos .principais-servicos-loop .principais-servicos-item .principais-servicos-marca {
   height: 2.5rem;
   margin-top: -0.25rem;
   padding-top: 0.48rem;
   padding-left: 0.5rem;
   background-color: #68358D;
 }
-.principais-servicos .principais-servicos-loop .principais-servicos-item div img {
+.principais-servicos .principais-servicos-loop .principais-servicos-item .principais-servicos-marca img {
   width: 1.5rem;
   height: auto;
 }
-.principais-servicos .principais-servicos-loop .principais-servicos-item h1 {
+.principais-servicos .principais-servicos-loop .principais-servicos-item .principais-servicos-titulo {
   padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -636,7 +637,7 @@ Tags: responsivo, negócios, corporativo
   font-weight: 400;
   font-size: 1.3rem;
 }
-.principais-servicos .principais-servicos-loop .principais-servicos-item p {
+.principais-servicos .principais-servicos-loop .principais-servicos-item .principais-servicos-descricao {
   padding-top: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -644,7 +645,7 @@ Tags: responsivo, negócios, corporativo
   font-weight: 300;
   font-size: 1rem;
 }
-.principais-servicos .principais-servicos-loop .principais-servicos-item button {
+.principais-servicos .principais-servicos-loop .principais-servicos-item .principais-servicos-saiba-mais {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
@@ -666,4 +667,140 @@ Tags: responsivo, negócios, corporativo
   border-radius: 0.5rem;
   background-color: #56B393;
   float: right;
+}
+
+.quem-somos {
+  margin-top: 2rem;
+}
+.quem-somos .quem-somos-titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+.quem-somos .quem-somos-conteudo {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.quem-somos .quem-somos-conteudo .quem-somos-descricao {
+  font-weight: 300 !important;
+  font-size: 1.5rem;
+}
+.quem-somos .quem-somos-conteudo .quem-somos-logo {
+  display: none;
+}
+@media (min-width: 992px) {
+  .quem-somos .quem-somos-conteudo .quem-somos-logo {
+    width: 15rem;
+    height: 10.5rem;
+    display: block;
+  }
+}
+.quem-somos .quem-somos-saiba-mais {
+  width: 10.3rem;
+  display: block;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #56B393;
+}
+
+.noticias {
+  margin-top: 2rem;
+}
+.noticias .noticias-titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+.noticias .noticias-loop {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.noticias .noticias-loop .noticias-item {
+  border-bottom: 0.1rem solid gray;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+}
+.noticias .noticias-loop .noticias-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  .noticias .noticias-loop .noticias-item {
+    display: flex;
+    gap: 2rem;
+  }
+}
+.noticias .noticias-loop .noticias-item .noticias-img {
+  width: 100%;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem;
+}
+@media (min-width: 768px) {
+  .noticias .noticias-loop .noticias-item .noticias-img {
+    height: 15rem;
+  }
+}
+@media (min-width: 768px) {
+  .noticias .noticias-loop .noticias-item .noticias-conteudo {
+    margin-top: -1rem;
+    position: relative;
+  }
+}
+.noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-titulo {
+  font-size: 1.5rem;
+  font-weight: bold !important;
+  color: #68358D;
+  margin-top: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-titulo {
+    font-size: 2rem;
+  }
+}
+.noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-descricao {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: #000000;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-descricao {
+    width: 40rem;
+  }
+}
+.noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-saiba-mais {
+  background: none;
+  color: #68358D;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+@media (min-width: 768px) {
+  .noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-saiba-mais {
+    position: absolute;
+    right: 0;
+    bottom: -0.1rem;
+  }
 }/*# sourceMappingURL=style.css.map */

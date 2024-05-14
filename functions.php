@@ -1,4 +1,3 @@
 <?php 
-include('functions/registerCSS.php');
-include('functions/registerJQUERY.php');
-include('functions/registerJS.php');
+include('functions/registro-css.php');
+include('functions/registro-js.php');

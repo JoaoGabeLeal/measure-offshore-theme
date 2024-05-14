@@ -1,76 +1,16 @@
-.catalogo{
-    width: 100%;
-    height: auto;
-    background: url('assets/images/catalogo_linhas.png'), $roxo;
-    background-size: cover;
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    @include breakpoint(lg){
-        width: 64rem;
-        height: 352px;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 3rem;
-    }
-    .catalogo-descricao{
-        padding: 1rem;
-        @include breakpoint(lg){
-            padding-top: 1rem;
-            padding-left: 7rem;
-        }
-        h1{
-            width: 65%;
-            margin-top: 1rem;
-            color: $branco;
-            font-size: 3rem;
-        }
-        h6{
-            width: 70%;
-            color: $branco;
-            font-size: 1rem;
-            font-weight: 400;
-            margin-top: 1rem;
-        }
-        a{
-            width: 7.5rem;
-            display: block;
-            margin-top: 1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-            color: $branco;
-            font-size: 1.3rem;
-            padding-top: 0.5rem;
-            padding-bottom: 0.6rem;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-            border-radius: 0.5rem;
-            background-color: $verde;
-        }
-    }
-    .catalogo-img{
-        display: none;
-        @include breakpoint(lg){
-            width: 28rem;
-            height: 28rem;
-            margin-top: -3rem;
-            display: block;
-        }
-    }
-}
-
 .principais-servicos{
     margin-top: 2rem;
     .principais-servicos-titulo{
-        color: $roxo;
-        font-size: 2rem;
-        font-weight: 300 !important;
+        @include title();
     }
     .principais-servicos-loop{
         display: flex;
         gap: 0.5rem;
         flex-wrap: wrap;
+        justify-content: center;
         @include breakpoint(lg){
             flex-wrap: nowrap;
+            justify-content: initial;
         }
         .principais-servicos-item{
             width: 100%;
@@ -92,7 +32,7 @@
             @include breakpoint(lg){
                 height: 43rem;
             }
-            img{
+            .principais-servicos-img{
                 width: 100%;
                 height: 15rem;
                 object-fit: cover !important;
@@ -102,7 +42,7 @@
                     object-fit: none;
                 }
             }
-            div{
+            .principais-servicos-marca{
                 height: 2.5rem;
                 margin-top: -0.25rem;
                 padding-top: 0.48rem;
@@ -113,7 +53,7 @@
                     height: auto;
                 }
             }
-            h1{
+            .principais-servicos-titulo{
                 padding-top: 1rem;
                 padding-left: 1rem;
                 padding-right: 1rem;
@@ -121,7 +61,7 @@
                 font-weight: 400;
                 font-size: 1.3rem;
             }
-            p{
+            .principais-servicos-descricao{
                 padding-top: 0.5rem;
                 padding-left: 1rem;
                 padding-right: 1rem;
@@ -129,7 +69,7 @@
                 font-weight: 300;
                 font-size: 1rem;
             }
-            button{
+            .principais-servicos-saiba-mais{
                 position: absolute;
                 bottom: 1rem;
                 right: 1rem;

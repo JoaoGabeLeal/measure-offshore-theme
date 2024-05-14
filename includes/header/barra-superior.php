@@ -1,6 +1,6 @@
-<section class="top-bar">
+<section class="barra-superior">
     <div class="container">
-        <div class="top-bar-content">
+        <div class="barra-superior-conteudo">
             <div class="email-telefone">
                 <span class="email">
                     <img src="<?php bloginfo('template_url'); ?>/assets/icons/email.svg" alt="icone email">

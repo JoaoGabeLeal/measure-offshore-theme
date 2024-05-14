@@ -7,7 +7,7 @@
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="keywords" content="Measure Offshore, serviços de engenharia elétrica, serviços de engenharia naval, calibração de equipamentos, manutenção de equipamentos, Brasil">
     <meta name="author" content="João Gabriel dos Anjos Leal">
-    <title><?php include('functions/usePageName.php') ?></title>
+    <title><?php include('functions/nome-da-pagina.php') ?></title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="<?php bloginfo('icon_url'); ?>">
     <!--GOOGLE FONTS-->
@@ -18,9 +18,11 @@
 </head>
 <body>
 
-<header class="header">
-    <?php include('includes/header/videoBackground.php'); ?>
-    <?php include('includes/header/topBar.php'); ?>
+<header class="cabecalho">
+    <?php include('includes/header/video.php'); ?>
+    <?php include('includes/header/barra-superior.php'); ?>
     <?php include('includes/header/navbar.php'); ?>
-    <?php include('includes/header/description.php'); ?>
+    <?php include('includes/header/descricao.php'); ?>
 </header>
+
+<main>

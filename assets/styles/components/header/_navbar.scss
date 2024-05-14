@@ -1,0 +1,120 @@
+.navbar{
+    width: 100%;
+    height: 4.5rem;
+    border-bottom: 0.2rem solid $roxo;
+    background-color: $roxo-transparent447;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    @include breakpoint(lg){
+        position: initial;
+        border-bottom: 0;
+        overflow: initial;
+    }
+    .navbar-inicio{
+        .logo{
+            margin-top: 1.2rem;
+        }
+        .toggle{
+            background: none;
+            float: right;
+            margin-top: 1.5rem;
+            img{
+                width: 1.5rem;
+                filter: invert(100%) sepia(98%) saturate(7%) hue-rotate(168deg) brightness(102%) contrast(106%);
+            }
+            @include breakpoint(lg){
+                display: none;
+            }
+        }
+    }
+    .navbar-list{
+        margin-top: 1rem;
+        @include breakpoint(lg){
+            margin-top: -1.8rem;
+            margin-left: 12rem;
+            display: flex;
+            gap: 1rem;
+        }
+        .navbar-item{
+            list-style: none;
+            margin-bottom: 1rem;
+            position: relative;
+            @include breakpoint(lg){
+                height: 3rem;
+                &:hover{
+                    .navbar-dropdown{
+                        display: block;
+                    }
+                }
+            }
+            .navbar-link{
+                font-weight: bold;
+                text-decoration: none;
+                color: $branco;
+                font-size: 1rem;
+                @include breakpoint(lg){
+                    position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 0;
+                        height: 0.2rem;
+                        border-radius: 0.5rem;
+                        bottom: -0.5rem;
+                        left: 50%;
+                        background-color: $verde;
+                        transition: all 0.3s;
+                    }
+                    &:hover::before {
+                        width: 100%;
+                        left: 0;
+                    }                    
+                }
+            }
+        }
+    }
+    .navbar-dropdown{
+        width: 18rem;
+        height: 43rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background-color: $roxo;
+        margin-top: 2rem;
+        display: none;
+        position: absolute;
+        z-index: 1;
+        .navbar-dropdown-titulo{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            h1{
+                color: $branco;
+                font-size: 1.5rem;
+            }
+        }
+        .navbar-dropdown-divisor{
+            width: 100%;
+            height: 0.1rem;
+            display: block;
+            margin-top: 1.5rem;
+            color: $branco;
+            text-decoration: underline;
+        }
+        .navbar-dropdown-list{
+            margin-top: 2rem;
+            .navbar-dropdown-item{
+                list-style: none;
+                margin-bottom: 1rem;
+                .navbar-dropdown-link{
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    color: $branco;
+                    font-size: 1rem;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

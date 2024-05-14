@@ -8,7 +8,17 @@
     </div>
     <div class="row">
         <div class="col-20">
-            <?php include('includes/inicio/principaisServicos.php') ?>
+            <?php include('includes/inicio/principais-servicos.php') ?>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-20">
+            <?php include('includes/inicio/quem-somos.php') ?>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-20">
+            <?php include('includes/inicio/noticias.php') ?>
         </div>
     </div>
 </div>
