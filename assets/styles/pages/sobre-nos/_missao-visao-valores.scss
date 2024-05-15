@@ -11,7 +11,7 @@
         .missao-visao-valores-topico-lista{
             margin-top: 0.5rem;
             margin-left: 1rem;
-            missao-visao-valores-topico-lista-item{
+            .missao-visao-valores-topico-lista-item{
                 margin-bottom: 0.5rem;
                 @include title(1rem, bold, $cinza3);
             }

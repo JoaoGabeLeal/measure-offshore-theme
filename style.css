@@ -975,7 +975,7 @@ Tags: responsivo, negócios, corporativo
 .vantagens-e-beneficios .vantagens-e-beneficios-topico {
   margin-top: 1.5rem;
 }
-.vantagens-e-beneficios .vantagens-e-beneficios-topico vantagens-e-beneficios-topico-titulo {
+.vantagens-e-beneficios .vantagens-e-beneficios-topico .vantagens-e-beneficios-topico-titulo {
   color: #444444;
   font-size: 1.1rem;
   font-weight: bold !important;
@@ -1007,7 +1007,7 @@ Tags: responsivo, negócios, corporativo
   margin-top: 0.5rem;
   margin-left: 1rem;
 }
-.missao-visao-valores .missao-visao-valores-topico .missao-visao-valores-topico-lista missao-visao-valores-topico-lista-item {
+.missao-visao-valores .missao-visao-valores-topico .missao-visao-valores-topico-lista .missao-visao-valores-topico-lista-item {
   margin-bottom: 0.5rem;
   color: #444444;
   font-size: 1rem;

@@ -10,7 +10,7 @@
     }
     .vantagens-e-beneficios-topico{
         margin-top: 1.5rem;
-        vantagens-e-beneficios-topico-titulo{
+        .vantagens-e-beneficios-topico-titulo{
             @include title(1.1rem, bold, $cinza3);
         }
     }
