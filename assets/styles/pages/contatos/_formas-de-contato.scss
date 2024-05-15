@@ -1,0 +1,45 @@
+.formas-de-contato{
+    margin-top: 2rem;
+    @include breakpoint(lg){
+        border-right: 0.1rem solid $roxo;
+    }
+    .formas-de-contato-topico{
+        margin-top: 3rem;
+        .formas-de-contato-topico-titulo{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            @include title(1.5rem, bold, $cinza3, true);
+            .formas-de-contato-topico-titulo-icone{
+                width: 1.5rem;
+            }
+        }
+        .formas-de-contato-topico-paragrafro{
+            margin-top: 0.5rem;
+            color: $cinza3;
+            font-weight: 400;
+            font-size: 1.25rem;
+            @include breakpoint(lg){
+                margin-left: 2.5rem;
+            }
+        }
+        .formas-de-contato-topico-lista{
+            margin-top: 1rem;
+            @include breakpoint(lg){
+                margin-left: 2.5rem;
+            }
+            .formas-de-contato-topico-lista-item{
+                list-style: none;
+                margin-bottom: 0.5rem;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                color: $cinza3;
+                font-size: 1.25rem;
+                .formas-de-contato-topico-lista-item-icone{
+                    width: 1.2rem;
+                }
+            }
+        }
+    }
+}

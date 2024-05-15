@@ -1,0 +1,19 @@
+.parceiros{
+    margin-top: 2rem;
+    .parceiros-titulo{
+        @include title(2.5rem);
+    }
+    .parceiros-paragrafo{
+        margin-top: 1rem;
+        color: $preto;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    .parceiros-galeria{
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+}

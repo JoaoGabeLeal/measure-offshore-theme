@@ -10,12 +10,12 @@
         </div>
         <ul class="navbar-list">
             <li class="navbar-item">
-                <a class="navbar-link" href="<?php bloginfo('template_url'); ?>" title="home">
+                <a class="navbar-link" href="<?php echo home_url('/'); ?>" title="home">
                     Home
                 </a>
             </li>
             <li class="navbar-item">
-                <a class="navbar-link" href="<?php bloginfo('template_url'); ?>" title="sobre nós">
+                <a class="navbar-link" href="<?php echo home_url('/sobre-nos'); ?>" title="sobre nós">
                     Sobre nós
                 </a>
             </li>
@@ -115,7 +115,7 @@
                 </a>
             </li>
             <li class="navbar-item">
-                <a class="navbar-link" href="<?php bloginfo('template_url'); ?>" title="contato">
+                <a class="navbar-link" href="<?php echo home_url('/contatos'); ?>" title="contato">
                     Contato
                 </a>
             </li>

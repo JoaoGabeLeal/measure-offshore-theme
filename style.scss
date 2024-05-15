@@ -23,10 +23,19 @@ Tags: responsivo, negócios, corporativo
 @import 'assets/styles/components/header/_barra_superior.scss';
 @import 'assets/styles/components/header/_navbar.scss';
 @import 'assets/styles/components/header/_descricao.scss';
+@import 'assets/styles/components/footer/_rodape.scss';
+@import 'assets/styles/components/footer/_whatsapp.scss';
 
 @import 'assets/styles/pages/inicio/_catalogo.scss';
 @import 'assets/styles/pages/inicio/_principais-servicos.scss';
 @import 'assets/styles/pages/inicio/_quem-somos.scss';
 @import 'assets/styles/pages/inicio/_noticias.scss';
+@import 'assets/styles/pages/inicio/_entre-em-contato.scss';
 
+@import 'assets/styles/pages/sobre-nos/_nossa-historia.scss';
+@import 'assets/styles/pages/sobre-nos/_vantagens-e-beneficios.scss';
+@import 'assets/styles/pages/sobre-nos/_missao-visao-valores.scss';
+@import 'assets/styles/pages/sobre-nos/_parceiros.scss';
 
+@import 'assets/styles/pages/contatos/_formas-de-contato.scss';
+@import 'assets/styles/pages/contatos/_formulario-de-contato.scss';

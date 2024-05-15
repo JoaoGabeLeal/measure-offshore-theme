@@ -1,0 +1,26 @@
+.missao-visao-valores{
+    margin-top: 2rem;
+    .missao-visao-valores-titulo{
+        @include title(2.5rem);
+    }
+    .missao-visao-valores-topico{
+        margin-top: 1rem;
+        .missao-visao-valores-topico-titulo{
+            @include title(1.5rem, bold);
+        }
+        .missao-visao-valores-topico-lista{
+            margin-top: 0.5rem;
+            margin-left: 1rem;
+            missao-visao-valores-topico-lista-item{
+                margin-bottom: 0.5rem;
+                @include title(1rem, bold, $cinza3);
+            }
+        }
+        .missao-visao-valores-topico-paragrafo{
+            margin-top: 0.5rem;
+            color: $preto;
+            font-weight: 300;
+            font-size: 1rem;
+        }
+    }
+}

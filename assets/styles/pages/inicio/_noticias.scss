@@ -13,6 +13,7 @@
             padding-top: 1rem;
             padding-bottom: 1rem;
             text-decoration: none;
+            color: $preto;
             &:last-child{
                 border-bottom: none;
                 padding-bottom: 0;
@@ -27,6 +28,7 @@
                 object-fit: cover;
                 border-radius: 0.5rem;
                 @include breakpoint(md){
+                    width: 25rem;
                     height: 15rem;
                 }
             }
@@ -38,7 +40,6 @@
                 .noticias-titulo{
                     font-size: 1.5rem;
                     font-weight: bold !important;
-                    color: $roxo;
                     margin-top: 1rem;
                     @include ellipsis(2);
                     @include breakpoint(md){
@@ -46,15 +47,13 @@
                     }
                 }
                 .noticias-descricao{
-                    margin-top: 0.5rem;
-                    margin-bottom: 1rem;
-                    color: $preto;
-                    @include ellipsis(8);
+                    margin-top: 1rem;
                     @include breakpoint(lg){
-                        width: 40rem;
+                        width: 35rem;
                     }
                 }
                 .noticias-saiba-mais{
+                    margin-top: 1rem;
                     background: none;
                     color: $roxo;
                     font-weight: 400;

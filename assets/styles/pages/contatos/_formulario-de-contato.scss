@@ -1,0 +1,26 @@
+.formulario-de-contato{
+    margin-top: 2rem;
+    @include breakpoint(lg){
+        margin-left: 2rem;
+    }
+    .formulario-de-contato-titulo{
+        @include title(2rem);
+    }
+    .formulario-de-contato-subtitulo{
+        margin-top: 0.3rem;
+        @include title(1.3rem, bold);
+        @include breakpoint(lg){
+            margin-left: 0.15rem;
+        }
+    }
+    .formulario-de-contato-strong{
+        font-size: 1.1rem;
+        font-weight: 400 !important;
+        display: block;
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+        @include breakpoint(lg){
+            margin-left: 0.15rem;
+        }
+    }
+}

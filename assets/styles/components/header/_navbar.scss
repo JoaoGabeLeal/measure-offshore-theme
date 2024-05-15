@@ -5,14 +5,17 @@
     background-color: $roxo-transparent447;
     overflow: hidden;
     position: absolute;
-    z-index: 1;
+    z-index: 9999;
+    transition: 0.2s linear;
     @include breakpoint(lg){
+        background-color: $roxo-transparent447;
         position: initial;
         border-bottom: 0;
         overflow: initial;
     }
     .navbar-inicio{
         .logo{
+            width: 8rem;
             margin-top: 1.2rem;
         }
         .toggle{

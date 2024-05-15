@@ -5,8 +5,8 @@ function get_custom_page_title() {
     if (is_front_page()) {
         return get_bloginfo('name'); // Retorna o título do site
     } else {
-        return get_the_title(); // Retorna o título da página atual
-    }
+            return get_the_title() . " | Measure Offshore"; // Retorna o título da página atual
+        }
 }
 
 echo get_custom_page_title(); // Exibe o título da página atual

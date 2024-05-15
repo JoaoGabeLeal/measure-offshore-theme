@@ -1,0 +1,12 @@
+.nossa-historia{
+    .nossa-historia-titulo{
+        @include title(2.5rem);
+    }
+    .nossa-historia-paragrafo{
+        margin-top: 1rem;
+        color: $preto;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+}

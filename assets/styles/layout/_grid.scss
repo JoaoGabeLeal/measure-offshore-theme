@@ -1,6 +1,18 @@
+.content{
+    padding-top: 2rem;
+    background-color: $branco;
+    position: relative;
+    z-index: 1;
+    @include breakpoint(lg){
+        padding-top: 6rem;
+    }
+}
+
 .container{
     width: 90%;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
     @include breakpoint(lg){
         width: 64rem;
     }

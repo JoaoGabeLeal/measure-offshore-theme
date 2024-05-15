@@ -1,0 +1,23 @@
+.vantagens-e-beneficios{
+    margin-top: 2rem;
+    .vantagens-e-beneficios-titulo{
+        @include title(2.5rem);
+    }
+    .vantagens-e-beneficios-negrito{
+        display: block;
+        margin-top: 1rem;
+        font-weight: bold;
+    }
+    .vantagens-e-beneficios-topico{
+        margin-top: 1.5rem;
+        vantagens-e-beneficios-topico-titulo{
+            @include title(1.1rem, bold, $cinza3);
+        }
+    }
+    .vantagens-e-beneficios-topico-paragrafo{
+        margin-top: 0.8rem;
+        color: $preto;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+}

@@ -42,9 +42,23 @@ Tags: responsivo, negócios, corporativo
   }
 }
 
+.content {
+  padding-top: 2rem;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 992px) {
+  .content {
+    padding-top: 6rem;
+  }
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 @media (min-width: 992px) {
   .container {
@@ -241,10 +255,10 @@ Tags: responsivo, negócios, corporativo
 .video {
   width: 100%;
   height: 30rem;
-  filter: contrast(100%);
+  filter: brightness(0.8);
   -o-object-fit: cover;
      object-fit: cover;
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: -1;
 }
@@ -303,16 +317,19 @@ Tags: responsivo, negócios, corporativo
   background-color: hsla(275, 45%, 38%, 0.447);
   overflow: hidden;
   position: absolute;
-  z-index: 1;
+  z-index: 9999;
+  transition: 0.2s linear;
 }
 @media (min-width: 992px) {
   .navbar {
+    background-color: hsla(275, 45%, 38%, 0.447);
     position: initial;
     border-bottom: 0;
     overflow: initial;
   }
 }
 .navbar .navbar-inicio .logo {
+  width: 8rem;
   margin-top: 1.2rem;
 }
 .navbar .navbar-inicio .toggle {
@@ -430,7 +447,7 @@ Tags: responsivo, negócios, corporativo
 }
 @media (min-width: 992px) {
   .descricao-separador {
-    height: 28rem;
+    height: 32rem;
   }
 }
 .descricao-separador .descricao {
@@ -438,15 +455,12 @@ Tags: responsivo, negócios, corporativo
   padding: 1rem;
   position: absolute;
   right: 0;
-  bottom: 1rem;
+  bottom: 5rem;
 }
 @media (min-width: 768px) {
   .descricao-separador .descricao {
     width: 36.75rem;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 .descricao-separador .descricao::before {
@@ -457,7 +471,7 @@ Tags: responsivo, negócios, corporativo
   width: 100%;
   height: 100%;
   background-color: #F8F8F8;
-  opacity: 0.05;
+  opacity: 0.08;
   z-index: -1;
 }
 .descricao-separador .descricao .descricao-titulo {
@@ -491,6 +505,61 @@ Tags: responsivo, negócios, corporativo
   }
 }
 
+.rodape {
+  width: 100%;
+  height: 176px;
+  background-color: #68358D;
+  margin-top: 5rem;
+}
+.rodape .rodape-conteudo {
+  width: 100%;
+  height: 176px;
+  position: relative;
+}
+.rodape .rodape-conteudo .rodape-logo {
+  width: 20rem;
+  position: absolute;
+  top: 2rem;
+}
+.rodape .rodape-conteudo .rodape-descricao {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  color: #ffffff;
+}
+@media (min-width: 992px) {
+  .rodape .rodape-conteudo .rodape-descricao {
+    bottom: 2rem;
+  }
+}
+
+.whatsapp {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 22.5rem;
+  overflow: hidden;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 99999;
+  animation: pulse 2s infinite;
+}
+.whatsapp img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .catalogo {
   width: 100%;
   height: auto;
@@ -498,7 +567,6 @@ Tags: responsivo, negócios, corporativo
   background-size: cover;
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  margin-top: 9rem;
 }
 @media (min-width: 768px) {
   .catalogo {
@@ -581,8 +649,7 @@ Tags: responsivo, negócios, corporativo
   width: 100%;
   height: 38rem;
   margin-top: 1rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
+  border-radius: 0.9rem;
   border: 0.1rem solid #E5E5E5;
   background-color: #F8F8F8 !important;
   text-decoration: none;
@@ -733,6 +800,7 @@ Tags: responsivo, negócios, corporativo
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-decoration: none;
+  color: #000000;
 }
 .noticias .noticias-loop .noticias-item:last-child {
   border-bottom: none;
@@ -753,6 +821,7 @@ Tags: responsivo, negócios, corporativo
 }
 @media (min-width: 768px) {
   .noticias .noticias-loop .noticias-item .noticias-img {
+    width: 25rem;
     height: 15rem;
   }
 }
@@ -765,12 +834,12 @@ Tags: responsivo, negócios, corporativo
 .noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-titulo {
   font-size: 1.5rem;
   font-weight: bold !important;
-  color: #68358D;
   margin-top: 1rem;
   display: -webkit-box;
-  -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 @media (min-width: 768px) {
   .noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-titulo {
@@ -778,20 +847,15 @@ Tags: responsivo, negócios, corporativo
   }
 }
 .noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-descricao {
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-  color: #000000;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 8;
-  overflow: hidden;
+  margin-top: 1rem;
 }
 @media (min-width: 992px) {
   .noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-descricao {
-    width: 40rem;
+    width: 35rem;
   }
 }
 .noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-saiba-mais {
+  margin-top: 1rem;
   background: none;
   color: #68358D;
   font-weight: 400;
@@ -802,5 +866,270 @@ Tags: responsivo, negócios, corporativo
     position: absolute;
     right: 0;
     bottom: -0.1rem;
+  }
+}
+
+.entre-em-contato {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  background-color: #68358D;
+  border-radius: 0.5rem;
+  display: flex;
+}
+@media (min-width: 992px) {
+  .entre-em-contato {
+    height: 22rem;
+    margin-top: 7rem;
+  }
+}
+.entre-em-contato .entre-em-contato-img {
+  display: none;
+}
+@media (min-width: 992px) {
+  .entre-em-contato .entre-em-contato-img {
+    width: 23rem;
+    height: 26rem;
+    margin-top: -4rem;
+    margin-left: 2rem;
+    display: block;
+  }
+}
+.entre-em-contato .entre-em-contato-conteudo {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+@media (min-width: 992px) {
+  .entre-em-contato .entre-em-contato-conteudo {
+    margin-bottom: 0;
+  }
+}
+.entre-em-contato .entre-em-contato-conteudo .entre-em-contato-titulo {
+  font-weight: 900 !important;
+  font-size: 50px;
+  color: #ffffff;
+}
+@media (min-width: 992px) {
+  .entre-em-contato .entre-em-contato-conteudo .entre-em-contato-titulo {
+    font-size: 80px;
+    line-height: 5rem;
+  }
+}
+.entre-em-contato .entre-em-contato-conteudo .entre-em-contato-titulo span {
+  color: #FFCA28;
+}
+.entre-em-contato .entre-em-contato-conteudo .entre-em-contato-descricao {
+  margin-top: 0.5rem;
+  font-size: 18px;
+  color: #ffffff;
+}
+.entre-em-contato .entre-em-contato-conteudo .entre-em-contato-descricao span {
+  color: #FFCA28;
+}
+.entre-em-contato .entre-em-contato-conteudo .entre-em-contato-link {
+  text-decoration: none;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.5rem;
+  background-color: #56B393;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+@media (min-width: 992px) {
+  .entre-em-contato .entre-em-contato-conteudo .entre-em-contato-link {
+    margin-right: 0;
+  }
+}
+
+.nossa-historia .nossa-historia-titulo {
+  color: #68358D;
+  font-size: 2.5rem;
+  font-weight: 300 !important;
+}
+.nossa-historia .nossa-historia-paragrafo {
+  margin-top: 1rem;
+  color: #000000;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.vantagens-e-beneficios {
+  margin-top: 2rem;
+}
+.vantagens-e-beneficios .vantagens-e-beneficios-titulo {
+  color: #68358D;
+  font-size: 2.5rem;
+  font-weight: 300 !important;
+}
+.vantagens-e-beneficios .vantagens-e-beneficios-negrito {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.vantagens-e-beneficios .vantagens-e-beneficios-topico {
+  margin-top: 1.5rem;
+}
+.vantagens-e-beneficios .vantagens-e-beneficios-topico vantagens-e-beneficios-topico-titulo {
+  color: #444444;
+  font-size: 1.1rem;
+  font-weight: bold !important;
+}
+.vantagens-e-beneficios .vantagens-e-beneficios-topico-paragrafo {
+  margin-top: 0.8rem;
+  color: #000000;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.missao-visao-valores {
+  margin-top: 2rem;
+}
+.missao-visao-valores .missao-visao-valores-titulo {
+  color: #68358D;
+  font-size: 2.5rem;
+  font-weight: 300 !important;
+}
+.missao-visao-valores .missao-visao-valores-topico {
+  margin-top: 1rem;
+}
+.missao-visao-valores .missao-visao-valores-topico .missao-visao-valores-topico-titulo {
+  color: #68358D;
+  font-size: 1.5rem;
+  font-weight: bold !important;
+}
+.missao-visao-valores .missao-visao-valores-topico .missao-visao-valores-topico-lista {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.missao-visao-valores .missao-visao-valores-topico .missao-visao-valores-topico-lista missao-visao-valores-topico-lista-item {
+  margin-bottom: 0.5rem;
+  color: #444444;
+  font-size: 1rem;
+  font-weight: bold !important;
+}
+.missao-visao-valores .missao-visao-valores-topico .missao-visao-valores-topico-paragrafo {
+  margin-top: 0.5rem;
+  color: #000000;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.parceiros {
+  margin-top: 2rem;
+}
+.parceiros .parceiros-titulo {
+  color: #68358D;
+  font-size: 2.5rem;
+  font-weight: 300 !important;
+}
+.parceiros .parceiros-paragrafo {
+  margin-top: 1rem;
+  color: #000000;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.parceiros .parceiros-galeria {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.formas-de-contato {
+  margin-top: 2rem;
+}
+@media (min-width: 992px) {
+  .formas-de-contato {
+    border-right: 0.1rem solid #68358D;
+  }
+}
+.formas-de-contato .formas-de-contato-topico {
+  margin-top: 3rem;
+}
+.formas-de-contato .formas-de-contato-topico .formas-de-contato-topico-titulo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-transform: uppercase;
+  color: #444444;
+  font-size: 1.5rem;
+  font-weight: bold !important;
+}
+.formas-de-contato .formas-de-contato-topico .formas-de-contato-topico-titulo .formas-de-contato-topico-titulo-icone {
+  width: 1.5rem;
+}
+.formas-de-contato .formas-de-contato-topico .formas-de-contato-topico-paragrafro {
+  margin-top: 0.5rem;
+  color: #444444;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+@media (min-width: 992px) {
+  .formas-de-contato .formas-de-contato-topico .formas-de-contato-topico-paragrafro {
+    margin-left: 2.5rem;
+  }
+}
+.formas-de-contato .formas-de-contato-topico .formas-de-contato-topico-lista {
+  margin-top: 1rem;
+}
+@media (min-width: 992px) {
+  .formas-de-contato .formas-de-contato-topico .formas-de-contato-topico-lista {
+    margin-left: 2.5rem;
+  }
+}
+.formas-de-contato .formas-de-contato-topico .formas-de-contato-topico-lista .formas-de-contato-topico-lista-item {
+  list-style: none;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #444444;
+  font-size: 1.25rem;
+}
+.formas-de-contato .formas-de-contato-topico .formas-de-contato-topico-lista .formas-de-contato-topico-lista-item .formas-de-contato-topico-lista-item-icone {
+  width: 1.2rem;
+}
+
+.formulario-de-contato {
+  margin-top: 2rem;
+}
+@media (min-width: 992px) {
+  .formulario-de-contato {
+    margin-left: 2rem;
+  }
+}
+.formulario-de-contato .formulario-de-contato-titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+.formulario-de-contato .formulario-de-contato-subtitulo {
+  margin-top: 0.3rem;
+  color: #68358D;
+  font-size: 1.3rem;
+  font-weight: bold !important;
+}
+@media (min-width: 992px) {
+  .formulario-de-contato .formulario-de-contato-subtitulo {
+    margin-left: 0.15rem;
+  }
+}
+.formulario-de-contato .formulario-de-contato-strong {
+  font-size: 1.1rem;
+  font-weight: 400 !important;
+  display: block;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+@media (min-width: 992px) {
+  .formulario-de-contato .formulario-de-contato-strong {
+    margin-left: 0.15rem;
   }
 }/*# sourceMappingURL=style.css.map */

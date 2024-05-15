@@ -1,0 +1,25 @@
+.rodape{
+    width: 100%;
+    height: 176px;
+    background-color: $roxo;
+    margin-top: 5rem;
+    .rodape-conteudo{
+        width: 100%;
+        height: 176px;
+        position: relative;
+        .rodape-logo{
+            width: 20rem;
+            position: absolute;
+            top: 2rem;
+        }
+        .rodape-descricao{
+            position: absolute;
+            bottom: 1rem;
+            right: 0;
+            color: $branco;
+            @include breakpoint(lg){
+                bottom: 2rem;
+            }
+        }
+    }
+}

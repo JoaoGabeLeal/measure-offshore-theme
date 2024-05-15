@@ -21,8 +21,8 @@
                         <img class="noticias-img" src="https://www.peacemakersnetwork.org/wp-content/uploads/2019/09/placeholder.jpg" alt="Notícia placeholder">
                     <?php endif; ?>
                         <div class="noticias-conteudo">
-                        <h1 class="noticias-titulo"><?php the_title(); ?></h1>
-                        <p class="noticias-descricao"><?php the_excerpt(); ?></p>
+                            <h1 class="noticias-titulo"><?php the_title(); ?></h1>
+                            <p class="noticias-descricao"><?php the_excerpt(); ?></p>
                         <button class="noticias-saiba-mais">Saiba mais</button>
                     </div>
                 </a>
