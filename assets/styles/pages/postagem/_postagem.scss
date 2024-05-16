@@ -1,0 +1,27 @@
+.postagem{
+    .postagem-titulo{
+        @include title()
+    }
+    .postagem-info{
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        .postagem-info-avatar{
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 22.5rem;
+        }
+        .postagem-info-autor-data{
+            .postagem-info-autor{
+                display: block;
+            }
+            .postagem-info-data{
+                display: block;
+            }
+        }
+    }
+    p{
+        margin-top: 1rem;
+    }
+}

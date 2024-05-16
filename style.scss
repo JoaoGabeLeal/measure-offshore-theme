@@ -15,6 +15,7 @@ Tags: responsivo, negócios, corporativo
 
 @import 'assets/styles/functions/_ellipses.scss';
 @import 'assets/styles/functions/_title.scss';
+@import 'assets/styles/functions/_button-verde.scss';
 
 @import 'assets/styles/layout/_breakpoint.scss';
 @import 'assets/styles/layout/_grid.scss';
@@ -25,6 +26,7 @@ Tags: responsivo, negócios, corporativo
 @import 'assets/styles/components/header/_descricao.scss';
 @import 'assets/styles/components/footer/_rodape.scss';
 @import 'assets/styles/components/footer/_whatsapp.scss';
+@import 'assets/styles/components/aside/_sidebar.scss';
 
 @import 'assets/styles/pages/inicio/_catalogo.scss';
 @import 'assets/styles/pages/inicio/_principais-servicos.scss';
@@ -39,3 +41,7 @@ Tags: responsivo, negócios, corporativo
 
 @import 'assets/styles/pages/contatos/_formas-de-contato.scss';
 @import 'assets/styles/pages/contatos/_formulario-de-contato.scss';
+
+@import 'assets/styles/pages/categorias/_categorias.scss';
+
+@import 'assets/styles/pages/postagem/_postagem.scss';

@@ -6,14 +6,14 @@
     border-radius: 0.5rem;
     display: flex;
     @include breakpoint(lg){
-        height: 22rem;
+        height: 23rem;
         margin-top: 7rem;
     }
     .entre-em-contato-img{
         display: none;
         @include breakpoint(lg){
-            width: 23rem;
-            height: 26rem;
+            width: 24rem;
+            height: 27rem;
             margin-top: -4rem;
             margin-left: 2rem;
             display: block;
@@ -22,8 +22,9 @@
     .entre-em-contato-conteudo{
         margin-top: 2rem;
         margin-bottom: 2rem;
-        margin-left: 2rem;
+        margin-left: 1.5rem;
         @include breakpoint(lg){
+            margin-left: 2rem;
             margin-bottom: 0;
         }
         .entre-em-contato-titulo{
@@ -47,20 +48,11 @@
             }
         }
         .entre-em-contato-link{
-            text-decoration: none;
-            float: right;
-            margin-right: 1rem;
-            margin-top: 1.5rem;
-            padding-top: 0.8rem;
-            padding-bottom: 0.8rem;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            border-radius: 0.5rem;
-            background-color: $verde;
-            color: $branco;
-            font-size: 1.1rem;
+            @include button-verde(15.7rem);
+            margin-top: 2rem;
             @include breakpoint(lg){
-                margin-right: 0;
+                float: right;
+                margin-right: 0rem;
             }
         }
     }

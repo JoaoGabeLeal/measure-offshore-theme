@@ -1,15 +1,12 @@
-.noticias{
-    margin-top: 2rem;
-    .noticias-titulo{
-        @include title();
-    }
-    .noticias-loop{
+.categorias{
+    .categorias-loop{
         display: flex;
         gap: 1rem;
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 1rem;
-        .noticias-item{
+        .categorias-item{
+            width: 100%;
             border-bottom: 0.1rem solid rgba(128, 128, 128, 0.457);
             padding-top: 0.5rem;
             padding-bottom: 1.5rem;
@@ -17,7 +14,6 @@
             color: $preto;
             &:first-child{
                 padding-top: 0;
-
             }
             &:last-child{
                 border-bottom: none;
@@ -25,48 +21,35 @@
             }
             @include breakpoint(md){
                 display: flex;
-                gap: 2rem;
+                gap: 1rem;
             }
-            .noticias-img{
+            .categorias-img{
                 width: 100%;
                 height: 20rem;
                 object-fit: cover;
                 border-radius: 0.5rem;
                 @include breakpoint(md){
-                    width: 25rem;
-                    height: 15rem;
+                    width: 18rem;
+                    height: 11rem;
                 }
             }
-            .noticias-conteudo{ 
+            .categorias-conteudo{ 
                 @include breakpoint(md){
                     margin-top: -1rem;
                     position: relative;
                 }
-                .noticias-titulo{
+                .categorias-titulo{
                     font-size: 1.5rem;
                     font-weight: bold !important;
                     color: $roxo;
                     margin-top: 1rem;
-                    @include ellipsis(2);
-                    @include breakpoint(lg){
-                        font-size: 2rem;
-                    }
+                    @include ellipsis(1);
                 }
-                .noticias-descricao{
+                .categorias-descricao{
                     margin-top: 0.5rem;
-                    font-size: 1.2rem;
                 }
-                .noticias-saiba-mais{
-                    margin-top: 1rem;
-                    background: none;
-                    color: $roxo;
-                    font-weight: 400;
-                    font-size: 1.1rem;
-                    @include breakpoint(md){
-                        position: absolute;
-                        right: 0;
-                        bottom: -0.1rem;
-                    }
+                .categorias-saiba-mais{
+                    display: none;
                 }
             }
         }

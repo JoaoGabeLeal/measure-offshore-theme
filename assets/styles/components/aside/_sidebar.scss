@@ -1,0 +1,7 @@
+.sidebar{
+    display: none;
+    @include breakpoint(lg){
+        display: block;
+        padding-left: 2rem;
+    }
+}

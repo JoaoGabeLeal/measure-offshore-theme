@@ -2,17 +2,14 @@
     <h1 class="noticias-titulo">Notícias</h1>
     <div class="noticias-loop">
         <?php
-        // Busca as postagens da categoria 'noticias'
         $args = array(
             'category_name' => 'noticias',
-            'posts_per_page' => -1, // para buscar todas as postagens
+            'posts_per_page' => -1, 
         );
-        $noticias = get_posts($args);
+        $query = get_posts($args);
 
-        // Verifica se há postagens
-        if (!empty($noticias)) {
-            // Loop através das postagens
-            foreach ($noticias as $post) : setup_postdata($post);
+        if (!empty($query)) {
+            foreach ($query as $post) : setup_postdata($post);
             ?>
                 <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" class="noticias-item">
                     <?php if (has_post_thumbnail()) : ?>
@@ -22,7 +19,7 @@
                     <?php endif; ?>
                         <div class="noticias-conteudo">
                             <h1 class="noticias-titulo"><?php the_title(); ?></h1>
-                            <p class="noticias-descricao"><?php the_excerpt(); ?></p>
+                            <p class="noticias-descricao"><?php echo get_the_excerpt(); ?></p>
                         <button class="noticias-saiba-mais">Saiba mais</button>
                     </div>
                 </a>

@@ -110,7 +110,7 @@
                 </div>
             </li>
             <li class="navbar-item">
-                <a class="navbar-link" href="<?php bloginfo('template_url'); ?>" title="notícias">
+                <a class="navbar-link" href="<?php echo home_url('/category/noticias'); ?>" title="notícias">
                     Notícias
                 </a>
             </li>

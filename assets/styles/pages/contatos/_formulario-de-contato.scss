@@ -1,7 +1,9 @@
 .formulario-de-contato{
     margin-top: 2rem;
     @include breakpoint(lg){
-        margin-left: 2rem;
+        padding-left: 2rem;
+        border-left: 0.1rem solid $roxo;
+        
     }
     .formulario-de-contato-titulo{
         @include title(2rem);
@@ -21,6 +23,51 @@
         margin-bottom: 0.8rem;
         @include breakpoint(lg){
             margin-left: 0.15rem;
+        }
+    }
+    .wpcf7-form{
+        label{
+            display: block;
+            margin-top: 1rem;
+        }
+        input{
+            width: 100%;
+            height: 2.5rem;
+            margin-top: 0.5rem;
+            padding: 0.5rem;
+            border: 0.1rem solid $roxo;
+            border-radius: 0.5rem;
+            outline: none;
+            @include breakpoint(lg){
+                width: 70%;
+            }
+        }
+        textarea{
+            width: 100%;
+            margin-top: 0.5rem;
+            padding: 0.5rem;
+            border: 0.1rem solid $roxo;
+            border-radius: 0.5rem;
+            outline: none;
+            resize: none;
+            @include breakpoint(lg){
+                width: 70%;
+            }
+        }
+        input[type="submit"]{
+            width: 10rem;
+            height: 2.5rem;
+            margin-top: 1rem;
+            background-color: $roxo;
+            color: $branco;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            outline: none;
+            transition: 0.3s;
+            &:hover{
+                background-color: $roxo;
+            }
         }
     }
 }

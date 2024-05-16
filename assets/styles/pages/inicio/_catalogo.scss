@@ -30,19 +30,8 @@
             margin-top: 1rem;
         }
         .catalogo-link{
-            width: 7.5rem;
-            display: block;
+            @include button-verde();
             margin-top: 1.5rem;
-            text-decoration: none;
-            text-transform: uppercase;
-            color: $branco;
-            font-size: 1.3rem;
-            padding-top: 0.5rem;
-            padding-bottom: 0.6rem;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-            border-radius: 0.5rem;
-            background-color: $verde;
         }
     }
     .catalogo-img{

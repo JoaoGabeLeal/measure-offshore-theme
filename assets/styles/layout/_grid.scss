@@ -1,7 +1,7 @@
-.content{
+.content{ //Essa classe é a que vai ser usada para abrigar o conteudo da página caso deseje fazer o efeito paralax no vídeo, basta position da classe .video para fixed
     padding-top: 2rem;
-    background-color: $branco;
     position: relative;
+    background-color: $branco;
     z-index: 1;
     @include breakpoint(lg){
         padding-top: 6rem;
@@ -11,8 +11,6 @@
 .container{
     width: 90%;
     margin: 0 auto;
-    position: relative;
-    z-index: 1;
     @include breakpoint(lg){
         width: 64rem;
     }

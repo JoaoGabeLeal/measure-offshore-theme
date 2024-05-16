@@ -1,10 +1,7 @@
 .formas-de-contato{
     margin-top: 2rem;
-    @include breakpoint(lg){
-        border-right: 0.1rem solid $roxo;
-    }
     .formas-de-contato-topico{
-        margin-top: 3rem;
+        margin-top: 2rem;
         .formas-de-contato-topico-titulo{
             display: flex;
             align-items: center;
@@ -15,6 +12,7 @@
             }
         }
         .formas-de-contato-topico-paragrafro{
+            width: 100%;
             margin-top: 0.5rem;
             color: $cinza3;
             font-weight: 400;
