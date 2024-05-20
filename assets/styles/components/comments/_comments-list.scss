@@ -1,0 +1,53 @@
+.comments-title{
+    display: none;
+}
+
+.comment-list{
+    margin-top: 2rem;
+    .comment{
+        list-style: none;
+        .comment-body{
+            border: 0.2rem solid $roxo;
+            border-radius: 1rem;
+            padding: 1rem;
+            .comment-author{
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+                .avatar{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    border-radius: 22.5rem;
+                }
+                .fn{
+                    .url{
+                        color: $roxo;
+                        text-decoration: none;
+                        font-size: 1.2rem;
+                        font-weight: 900 !important;
+                    }
+                }
+                .says{
+                    display: none;
+                }
+            }
+            .comment-meta{
+                display: none;
+            }
+            p{
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+            .reply{
+                a{
+                    color: $roxo;
+                    text-decoration: none;
+                    font-weight: 900;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

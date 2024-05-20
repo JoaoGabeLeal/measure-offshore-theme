@@ -1,25 +1,34 @@
-<?php
-if ( post_password_required() ) {
-    return;
-}
-?>
-
 <div id="comments" class="comments-area">
 
-    <?php if ( have_comments() ) : ?>
+    <?php
+    // Se os comentários estão abertos ou temos pelo menos um comentário, carrega o formulário de comentários.
+    if ( comments_open() || get_comments_number() ) :
+        comment_form();
+    endif;
+    ?>
+
+    <?php
+    // Verifique se há comentários para listar.
+    if ( have_comments() ) : ?>
+
         <h2 class="comments-title">
             <?php
             $comments_number = get_comments_number();
             if ( '1' === $comments_number ) {
-                printf(
-                    esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'theme' ),
-                    '<span>' . get_the_title() . '</span>'
-                );
+                /* translators: %s: post title */
+                printf( _x( 'One thought on &ldquo;%s&rdquo;', 'comments title', 'textdomain' ), get_the_title() );
             } else {
                 printf(
-                    esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $comments_number, 'comments title', 'theme' ) ),
+                    /* translators: 1: number of comments, 2: post title */
+                    _nx(
+                        '%1$s thought on &ldquo;%2$s&rdquo;',
+                        '%1$s thoughts on &ldquo;%2$s&rdquo;',
+                        $comments_number,
+                        'comments title',
+                        'textdomain'
+                    ),
                     number_format_i18n( $comments_number ),
-                    '<span>' . get_the_title() . '</span>'
+                    get_the_title()
                 );
             }
             ?>
@@ -27,22 +36,13 @@ if ( post_password_required() ) {
 
         <ol class="comment-list">
             <?php
-            wp_list_comments( array(
-                'style'      => 'ol',
-                'short_ping' => true,
-                'avatar_size'=> 50,
-            ) );
+                wp_list_comments( array(
+                    'style'      => 'ol',
+                    'short_ping' => true,
+                ) );
             ?>
         </ol>
 
-        <?php the_comments_pagination(); ?>
-
     <?php endif; ?>
 
-    <?php if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) : ?>
-        <p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'theme' ); ?></p>
-    <?php endif; ?>
-
-    <?php comment_form(); ?>
-
-</div>
+</div><!-- .comments-area -->

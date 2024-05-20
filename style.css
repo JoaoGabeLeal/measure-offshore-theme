@@ -573,6 +573,120 @@ Tags: responsivo, negócios, corporativo
   }
 }
 
+.comment-respond {
+  margin-top: 2rem;
+}
+.comment-respond .comment-reply-title {
+  color: #68358D;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.comment-respond .comment-form .logged-in-as {
+  color: #68358D;
+  margin: 0;
+}
+.comment-respond .comment-form .logged-in-as a {
+  text-decoration: none;
+  color: #444444;
+}
+.comment-respond .comment-form .comment-form-comment label {
+  color: #68358D;
+}
+.comment-respond .comment-form .comment-form-comment textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  outline: none;
+  border: 0.1rem solid #68358D;
+}
+.comment-respond .comment-form .comment-form-author label {
+  color: #68358D;
+}
+.comment-respond .comment-form .comment-form-author input {
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  outline: none;
+  border: 0.1rem solid #68358D;
+}
+.comment-respond .comment-form .comment-form-email label {
+  color: #68358D;
+}
+.comment-respond .comment-form .comment-form-email input {
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  outline: none;
+  border: 0.1rem solid #68358D;
+}
+.comment-respond .comment-form .comment-form-url {
+  display: none;
+}
+.comment-respond .comment-form .form-submit input[type=submit] {
+  background-color: #68358D;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.comments-title {
+  display: none;
+}
+
+.comment-list {
+  margin-top: 2rem;
+}
+.comment-list .comment {
+  list-style: none;
+}
+.comment-list .comment .comment-body {
+  border: 0.2rem solid #68358D;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.comment-list .comment .comment-body .comment-author {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.comment-list .comment .comment-body .comment-author .avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 22.5rem;
+}
+.comment-list .comment .comment-body .comment-author .fn .url {
+  color: #68358D;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 900 !important;
+}
+.comment-list .comment .comment-body .comment-author .says {
+  display: none;
+}
+.comment-list .comment .comment-body .comment-meta {
+  display: none;
+}
+.comment-list .comment .comment-body p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.comment-list .comment .comment-body .reply a {
+  color: #68358D;
+  text-decoration: none;
+  font-weight: 900;
+}
+.comment-list .comment .comment-body .reply a:hover {
+  text-decoration: underline;
+}
+
 .catalogo {
   width: 100%;
   height: auto;

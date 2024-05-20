@@ -1,0 +1,73 @@
+.comment-respond{
+    margin-top: 2rem;
+    .comment-reply-title{
+        color: $roxo;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+    }
+    .comment-form{
+        .logged-in-as{
+            color: $roxo;
+            margin: 0;
+            a{
+                text-decoration: none;
+                color: $cinza3;
+            }
+        }
+        .comment-form-comment{
+            label{
+                color: $roxo;
+            }
+            textarea{
+                width: 100%;
+                margin-top: 0.5rem;
+                border-radius: 0.5rem;
+                padding: 1rem;
+                outline: none;
+                border: 0.1rem solid $roxo;
+            }
+        }
+        .comment-form-author{
+            label{
+                color: $roxo;
+            }
+            input{
+                width: 100%;
+                height: 2.5rem;
+                margin-top: 0.5rem;
+                border-radius: 0.5rem;
+                padding: 1rem;
+                outline: none;
+                border: 0.1rem solid $roxo;
+            }
+        }
+        .comment-form-email{
+            label{
+                color: $roxo;
+            }
+            input{
+                width: 100%;
+                height: 2.5rem;
+                margin-top: 0.5rem;
+                border-radius: 0.5rem;
+                padding: 1rem;
+                outline: none;
+                border: 0.1rem solid $roxo;
+            }
+        }
+        .comment-form-url{
+            display: none;
+        }
+        .form-submit{
+            input[type="submit"]{
+                background-color: $roxo;
+                color: $branco;
+                border: none;
+                border-radius: 0.5rem;
+                padding: 0.5rem 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
