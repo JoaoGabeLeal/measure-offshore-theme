@@ -1388,4 +1388,49 @@ Tags: responsivo, negócios, corporativo
 }
 .postagem p {
   margin-top: 1rem;
+}
+
+.servicos-titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+
+.servicos-lista-titulo {
+  color: #444444;
+  font-size: 1.5rem;
+  font-weight: 400 !important;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.servicos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.servicos-lista .servicos-item {
+  width: 15rem;
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #E5E5E5;
+  text-decoration: none;
+}
+.servicos-lista .servicos-item .servicos-titulo {
+  color: #68358D;
+  font-size: 1.3rem;
+  font-weight: 400 !important;
+}
+.servicos-lista .servicos-item .servicos-descricao {
+  margin-top: 0.8rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: #444444 !important;
+}
+.servicos-lista .servicos-item .servicos-saibamais {
+  position: absolute;
+  bottom: 1.2rem;
+  background: none;
+  color: #68358D;
 }/*# sourceMappingURL=style.css.map */

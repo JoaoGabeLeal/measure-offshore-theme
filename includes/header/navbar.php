@@ -20,7 +20,7 @@
                 </a>
             </li>
             <li class="navbar-item">
-                <a class="navbar-link" href="<?php bloginfo('template_url'); ?>" title="soluções">
+                <a class="navbar-link" href="<?php echo home_url('/solucoes'); ?>" title="soluções">
                     Soluções
                 </a>
                 <div class="navbar-dropdown">
