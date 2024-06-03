@@ -1638,4 +1638,130 @@ Tags: responsivo, negócios, corporativo
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.5rem;
+}
+
+.servicos-de-manutencao-titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+
+.bloco-calibracao {
+  padding-top: 1.5rem;
+  background: url("assets/images/manutencao-linhas.png"), #68358D;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.bloco-calibracao .bloco-titulo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.bloco-calibracao .bloco-titulo .titulo {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700 !important;
+}
+.bloco-calibracao .bloco-titulo .titulo span {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 400 !important;
+}
+.bloco-calibracao .bloco-descricao {
+  margin-top: 1.5rem;
+  font-weight: 700 !important;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.bloco-calibracao .bloco-servicos {
+  margin-top: 2rem;
+}
+.bloco-calibracao .bloco-servicos .titulo {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400 !important;
+}
+.bloco-calibracao .bloco-servicos .lista {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .bloco-calibracao .bloco-servicos .lista {
+    gap: 4rem;
+  }
+}
+@media (min-width: 1024px) {
+  .bloco-calibracao .bloco-servicos .lista {
+    flex-wrap: nowrap;
+    gap: 5rem;
+  }
+}
+.bloco-calibracao .bloco-servicos .lista div h6 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400 !important;
+  margin-left: -1.5rem;
+  margin-bottom: 0.5rem;
+}
+.bloco-calibracao .bloco-servicos .lista div li {
+  margin-bottom: 0.2rem;
+  font-weight: 700 !important;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.bloco-calibracao .bloco-servicos .lista li {
+  margin-bottom: 0.2rem;
+  font-weight: 700 !important;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.bloco-calibracao .bloco-ilustracoes {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.bloco-calibracao .bloco-ilustracoes .ilustracoes-item {
+  width: 21rem;
+  height: 30.3rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.bloco-calibracao .bloco-ilustracoes .ilustracoes-item .imagem {
+  width: 100%;
+  margin-top: -0.5rem;
+}
+.bloco-calibracao .bloco-ilustracoes .ilustracoes-item .bloco-titulo {
+  margin-top: 0.55rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.bloco-calibracao .bloco-ilustracoes .ilustracoes-item .bloco-titulo .logomarca {
+  width: 3rem;
+}
+.bloco-calibracao .bloco-ilustracoes .ilustracoes-item .bloco-titulo .titulo {
+  color: #68358D;
+  font-size: 1rem;
+  font-weight: 700 !important;
+}
+.bloco-calibracao .orcamento {
+  float: right;
+  background-color: #56B393;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
 }/*# sourceMappingURL=style.css.map */
