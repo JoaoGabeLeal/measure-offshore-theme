@@ -1,5 +1,9 @@
 .servicos-nr-bloco{
-    background-color: $roxo;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: url('assets/images/nr-linhas.png'), $roxo;
+    background-repeat: no-repeat;
+    background-position: bottom right;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     margin-top: 1.5rem;
@@ -29,10 +33,41 @@
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
         overflow: hidden;
-        margin: 2rem auto;
         background-color: $branco;
+        float: none;
+        margin: 0 auto;
+        @include breakpoint(lg){
+            float: right;
+            margin-top: 2rem;
+        }
         .imagem{
             margin-top: -0.5rem;
         }
+        .bloco-titulo{
+            margin-top: 0.55rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            .logomarca{
+                width: 3rem;
+            }
+            .titulo{
+                @include title(1rem, 700, $roxo, false);
+            }
+        }
+    }
+    .orcamento{
+        float: right;
+        background-color: $verde;
+        text-decoration: none;
+        color: $branco;
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        border-radius: 0.5rem;
     }
 }

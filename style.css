@@ -1410,12 +1410,17 @@ Tags: responsivo, negócios, corporativo
   gap: 1rem;
 }
 .servicos-lista .servicos-item {
-  width: 15rem;
+  width: 100%;
   position: relative;
   padding: 1.5rem;
   border-radius: 0.5rem;
   background-color: #E5E5E5;
   text-decoration: none;
+}
+@media (min-width: 576px) {
+  .servicos-lista .servicos-item {
+    width: 15rem;
+  }
 }
 .servicos-lista .servicos-item .servicos-titulo {
   color: #68358D;
@@ -1442,7 +1447,11 @@ Tags: responsivo, negócios, corporativo
 }
 
 .servicos-nr-bloco {
-  background-color: #68358D;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: url("assets/images/nr-linhas.png"), #68358D;
+  background-repeat: no-repeat;
+  background-position: bottom right;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   margin-top: 1.5rem;
@@ -1477,9 +1486,156 @@ Tags: responsivo, negócios, corporativo
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   overflow: hidden;
-  margin: 2rem auto;
   background-color: #ffffff;
+  float: none;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .servicos-nr-bloco .bloco-imagem {
+    float: right;
+    margin-top: 2rem;
+  }
 }
 .servicos-nr-bloco .bloco-imagem .imagem {
   margin-top: -0.5rem;
+}
+.servicos-nr-bloco .bloco-imagem .bloco-titulo {
+  margin-top: 0.55rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.servicos-nr-bloco .bloco-imagem .bloco-titulo .logomarca {
+  width: 3rem;
+}
+.servicos-nr-bloco .bloco-imagem .bloco-titulo .titulo {
+  color: #68358D;
+  font-size: 1rem;
+  font-weight: 700 !important;
+}
+.servicos-nr-bloco .orcamento {
+  float: right;
+  background-color: #56B393;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.servicos-de-manutencao-titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+
+.bloco-manutencao {
+  background: url("assets/images/manutencao-linhas.png"), #68358D;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.bloco-manutencao .bloco-titulo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.bloco-manutencao .bloco-titulo .titulo {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700 !important;
+}
+.bloco-manutencao .bloco-titulo .titulo span {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 400 !important;
+}
+.bloco-manutencao .bloco-descricao {
+  margin-top: 1.5rem;
+  font-weight: 700 !important;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.bloco-manutencao .bloco-servicos {
+  margin-top: 2rem;
+}
+.bloco-manutencao .bloco-servicos .titulo {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400 !important;
+}
+.bloco-manutencao .bloco-servicos .lista {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .bloco-manutencao .bloco-servicos .lista {
+    gap: 4rem;
+  }
+}
+@media (min-width: 1024px) {
+  .bloco-manutencao .bloco-servicos .lista {
+    flex-wrap: nowrap;
+    gap: 5rem;
+  }
+}
+.bloco-manutencao .bloco-servicos .lista li {
+  margin-bottom: 0.2rem;
+  font-weight: 700 !important;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.bloco-manutencao .bloco-ilustracoes {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.bloco-manutencao .bloco-ilustracoes .ilustracoes-item {
+  width: 21rem;
+  height: 30.3rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.bloco-manutencao .bloco-ilustracoes .ilustracoes-item .imagem {
+  width: 100%;
+  margin-top: -0.5rem;
+}
+.bloco-manutencao .bloco-ilustracoes .ilustracoes-item .bloco-titulo {
+  margin-top: 0.55rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.bloco-manutencao .bloco-ilustracoes .ilustracoes-item .bloco-titulo .logomarca {
+  width: 3rem;
+}
+.bloco-manutencao .bloco-ilustracoes .ilustracoes-item .bloco-titulo .titulo {
+  color: #68358D;
+  font-size: 1rem;
+  font-weight: 700 !important;
+}
+.bloco-manutencao .orcamento {
+  float: right;
+  background-color: #56B393;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
 }/*# sourceMappingURL=style.css.map */

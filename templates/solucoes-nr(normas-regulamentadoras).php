@@ -15,7 +15,11 @@ get_header();
         </div>
     </div>
     <?php include(get_template_directory() . "/includes/servicos-nr/servicos-nr10.php"); ?>
-
+    <?php include(get_template_directory() . "/includes/servicos-nr/servicos-nr12.php"); ?>
+    <?php include(get_template_directory() . "/includes/servicos-nr/servicos-nr13.php"); ?>
+    <?php include(get_template_directory() . "/includes/servicos-nr/servicos-nr33.php"); ?>
+    <?php include(get_template_directory() . "/includes/servicos-nr/servicos-nr35.php"); ?>
+    <?php include(get_template_directory() . "/includes/servicos-nr/servicos-nr37.php"); ?>
 </div>
 
 <?php get_footer(); ?>

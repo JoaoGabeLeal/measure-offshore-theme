@@ -9,12 +9,15 @@
     flex-wrap: wrap;
     gap: 1rem;
     .servicos-item{
-        width: 15rem;
+        width: 100%;
         position: relative;
         padding: 1.5rem;
         border-radius: 0.5rem;
         background-color: $cinza2;
         text-decoration: none;
+        @include breakpoint(sm){
+            width: 15rem;
+        }
         .servicos-titulo{
             @include title(1.3rem, 400, $roxo);
         }
