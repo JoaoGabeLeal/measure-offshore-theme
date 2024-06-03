@@ -1433,4 +1433,53 @@ Tags: responsivo, negócios, corporativo
   bottom: 1.2rem;
   background: none;
   color: #68358D;
+}
+
+.servicos-nr-titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+
+.servicos-nr-bloco {
+  background-color: #68358D;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.servicos-nr-bloco .bloco-titulo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.servicos-nr-bloco .bloco-titulo .titulo {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700 !important;
+}
+.servicos-nr-bloco .bloco-titulo .titulo span {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 400 !important;
+}
+.servicos-nr-bloco .bloco-especificacoes {
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+.servicos-nr-bloco .bloco-especificacoes li {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.servicos-nr-bloco .bloco-imagem {
+  width: 23.5625rem;
+  height: 20.5625rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  overflow: hidden;
+  margin: 2rem auto;
+  background-color: #ffffff;
+}
+.servicos-nr-bloco .bloco-imagem .imagem {
+  margin-top: -0.5rem;
 }/*# sourceMappingURL=style.css.map */

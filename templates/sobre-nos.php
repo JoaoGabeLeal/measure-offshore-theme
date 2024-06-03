@@ -6,7 +6,7 @@ Template Name: Sobre Nós
 get_header();
 ?>
 
-<div class="content" style="padding: 2rem">
+<div class="content" style="padding-top: 2rem">
     <div class="container">
         <div class="row">
             <div class="col-20">

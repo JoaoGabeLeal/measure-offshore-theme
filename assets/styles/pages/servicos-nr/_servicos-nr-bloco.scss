@@ -1,0 +1,38 @@
+.servicos-nr-bloco{
+    background-color: $roxo;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    .bloco-titulo{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        .titulo{
+            @include title(1.8rem, 700, $branco, false);
+            span{
+                @include title(1.8rem, 400, $branco, false);
+            }
+        }
+    }
+    .bloco-especificacoes{
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        li{
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+            color: $branco;
+        }
+    }
+    .bloco-imagem{
+        width: 23.5625rem;
+        height: 20.5625rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        overflow: hidden;
+        margin: 2rem auto;
+        background-color: $branco;
+        .imagem{
+            margin-top: -0.5rem;
+        }
+    }
+}
