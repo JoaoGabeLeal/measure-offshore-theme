@@ -27,15 +27,15 @@
                     <h6 class="titulo">Serviços:</h6>
                     <ul class="lista">
                         <div>
-                            <li>Recebimento e Conferência</li>
-                            <li>Armazenamento e Organização</li>
-                            <li>Manutenção de Telhados e Coberturas</li>
-                            <li>Preparação e Embalagem</li>
-                            <li>Coordenação Interdepartamental</li>
+                            <li>Recebimento e conferência</li>
+                            <li>Armazenamento e organização</li>
+                            <li>Manutenção de telhados e coberturas</li>
+                            <li>Preparação e embalagem</li>
+                            <li>Coordenação interdepartamental</li>
                         </div>
                         <div>
-                            <li>Gestão de Estoque</li>
-                            <li>Inspeção Regular</li>
+                            <li>Gestão de estoque</li>
+                            <li>Inspeção regular</li>
                             <li>Inventários</li>
                             <li>Conformidade</li>
                         </div>

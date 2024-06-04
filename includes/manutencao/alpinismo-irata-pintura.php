@@ -27,12 +27,12 @@
                     <h6 class="titulo">Serviços:</h6>
                     <ul class="lista">
                         <div>
-                            <li>Reformas Verticais</li>
-                            <li>Alpinismo Industrial</li>
-                            <li>Manutenção de Telhados e Coberturas</li>
-                            <li>Manutenção Predial</li>
-                            <li>Recuperação de Fachadas</li>
-                            <li>Lavagem e Limpeza Industrial e Embarcações</li>
+                            <li>Reformas verticais</li>
+                            <li>Alpinismo industrial</li>
+                            <li>Manutenção de telhados e coberturas</li>
+                            <li>Manutenção predial</li>
+                            <li>Recuperação de fachadas</li>
+                            <li>Lavagem e limpeza industrial e embarcações</li>
                         </div>
                     </ul>
                 </div>
@@ -45,21 +45,21 @@
                         <img class="imagem" src="<?php bloginfo('template_url'); ?>/assets/images/alpinismo-industrial.png" alt="alpinismo industrial">
                         <div class="bloco-titulo">
                             <img class="logomarca" src="<?php bloginfo('template_url'); ?>/assets/images/logo-colorido-miniatura.png" alt="logomarca">
-                            <h6 class="titulo">Alpinismo Industrial</h6>
+                            <h6 class="titulo">Alpinismo industrial</h6>
                         </div>
                     </div>
                     <div class="ilustracoes-item">
                         <img class="imagem" src="<?php bloginfo('template_url'); ?>/assets/images/manutencao-predial.png" alt="manutencao predial">
                         <div class="bloco-titulo">
                             <img class="logomarca" src="<?php bloginfo('template_url'); ?>/assets/images/logo-colorido-miniatura.png" alt="logomarca">
-                            <h6 class="titulo">Manutenção Predial</h6>
+                            <h6 class="titulo">Manutenção predial</h6>
                         </div>
                     </div>
                     <div class="ilustracoes-item">
                         <img class="imagem" src="<?php bloginfo('template_url'); ?>/assets/images/alpinismo-embarcacoes.png" alt="alpinismo embarcacoes">
                         <div class="bloco-titulo">
                             <img class="logomarca" src="<?php bloginfo('template_url'); ?>/assets/images/logo-colorido-miniatura.png" alt="logomarca">
-                            <h6 class="titulo">Alpinismo Embarcações</h6>
+                            <h6 class="titulo">Alpinismo embarcações</h6>
                         </div>
                     </div>
                 </div>

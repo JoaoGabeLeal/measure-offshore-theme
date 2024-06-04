@@ -30,6 +30,7 @@
         .redes-sociais{
             display: none;
             @include breakpoint(lg){
+                margin-top: 0.4rem;
                 display: flex;
                 align-items: center;
                 gap: 0.5rem;

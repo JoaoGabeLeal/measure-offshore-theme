@@ -28,7 +28,7 @@
                     <h6 class="titulo">Calibramos:</h6>
                     <ul class="lista">
                         <div>
-                            <li>Micrômetros Externo</li>
+                            <li>Micrômetros externo</li>
                             <li>Paquímetro universal</li>
                             <li>Esquadro de 90º</li>
                             <li>Trenas de fita de aço e sintética</li>

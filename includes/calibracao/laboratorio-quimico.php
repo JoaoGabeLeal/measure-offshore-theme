@@ -4,7 +4,7 @@
             <div class="col-20">
                 <div class="bloco-titulo">
                     <img class="icone" src="<?php bloginfo('template_url'); ?>/assets/icons/laboratorio-quimico.svg" alt="laboratorio quimico">
-                    <h6 class="titulo">Laboratório Químico</h6>
+                    <h6 class="titulo">Laboratório químico</h6>
                 </div>
             </div>
         </div>

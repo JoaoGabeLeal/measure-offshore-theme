@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-20">
                 <p class="bloco-descricao">
-                    O Laboratório de Metrologia Elétrica e Frequência tem como objetivo principal 
+                    O Laboratório de metrologia elétrica e frequência tem como objetivo principal 
                     garantir a confiabilidade metrológica dos sistemas e equipamentos de medição. 
                     O processo de calibração envolve a comparação dos valores indicados ou gerados 
                     por um equipamento com os valores correspondentes de grandezas estabelecidos pelos 
@@ -27,15 +27,15 @@
                     <h6 class="titulo">Calibramos:</h6>
                     <ul class="lista">
                         <div>
-                            <li>Alicate Amperímetro Analógico e Digital</li>
-                            <li>Multímetros Analógico e Digital</li>
-                            <li>Amperímetros Analógico e Digital</li>
+                            <li>Alicate amperímetro analógico e digital</li>
+                            <li>Multímetros analógico e digital</li>
+                            <li>Amperímetros analógico e digital</li>
                             <li>Osciloscópio</li>
                         </div>
                         <div>
                             <li>Voltímetro</li>
-                            <li>Alicate Wattímetro</li>
-                            <li>Alicate Terrômetro</li>
+                            <li>Alicate wattímetro</li>
+                            <li>Alicate terrômetro</li>
                             <li>Terrômetro</li>
                         </div>
                     </ul>
@@ -49,7 +49,7 @@
                         <img class="imagem" src="<?php bloginfo('template_url'); ?>/assets/images/pinca-amperimetro.png" alt="pinça amperimetro">
                         <div class="bloco-titulo">
                             <img class="logomarca" src="<?php bloginfo('template_url'); ?>/assets/images/logo-colorido-miniatura.png" alt="logomarca">
-                            <h6 class="titulo">Pinça Amperímetro</h6>
+                            <h6 class="titulo">Pinça amperímetro</h6>
                         </div>
                     </div>
                     <div class="ilustracoes-item">

@@ -1,0 +1,40 @@
+.calibracao-de-anemometro{
+    position: relative;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background: url('assets/images/calibracao-de-anemometro.png') no-repeat center center;
+    background-size: cover;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #68358d45;
+        z-index: 1;
+    }
+
+    .titulo{
+        position: relative;
+        z-index: 2;
+        @include title(3rem, 700, $branco, false);
+        span{
+            color: $verde;
+        }
+    }
+    .descricao{
+        position: relative;
+        z-index: 2;
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        font-size: 1.8rem;
+        color: $branco;
+    }
+    .saibamais{
+        position: relative;
+        z-index: 2;
+        @include button-verde;
+    }
+}

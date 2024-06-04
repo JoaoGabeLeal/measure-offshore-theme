@@ -4,22 +4,22 @@
             <div class="col-20">
                 <div class="bloco-titulo">
                     <img class="icone" src="<?php bloginfo('template_url'); ?>/assets/icons/nr13.svg" alt="NR 13">
-                    <h6 class="titulo">Serviços de NR 13 - <span>Caldeiras, Vasos de Pressão e Tubulação</span></h6>
+                    <h6 class="titulo">Serviços de NR 13 - <span>Caldeiras, vasos de pressão e tubulação</span></h6>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-10">
                 <ul class="bloco-especificacoes">
-                    <li>Inspeção Externa de Vasos de Pressão</li>
-                    <li>Inspeção Interna de Vasos de Pressão</li>
-                    <li>Teste Hidrostático</li>
-                    <li>Medição de Espessura por Ultrassom</li>
-                    <li>Inspeção por Boroscopia</li>
+                    <li>Inspeção externa de vasos de pressão</li>
+                    <li>Inspeção interna de vasos de pressão</li>
+                    <li>Teste hidrostático</li>
+                    <li>Medição de espessura por ultrassom</li>
+                    <li>Inspeção por boroscopia</li>
                     <li>Cálculo de PMTA</li>
-                    <li>Reconstituição de Desenhos de Vasos de Pressão</li>
-                    <li>Projeto de Instalação</li>
-                    <li>Inspeção de Caldeiras</li>
+                    <li>Reconstituição de desenhos de vasos de pressão</li>
+                    <li>Projeto de instalação</li>
+                    <li>Inspeção de caldeiras</li>
                 </ul>
             </div>
             <div class="col-10">

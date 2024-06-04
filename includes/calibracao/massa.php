@@ -31,10 +31,10 @@
                     <ul class="lista">
                         <div>
                             <li>Maca</li>
-                            <li>Balança Mecânica</li>
-                            <li>Balança Analítica</li>
-                            <li>Colete de Resgate KED</li>
-                            <li>Balança de Precisão</li>
+                            <li>Balança mecânica</li>
+                            <li>Balança analítica</li>
+                            <li>Colete de resgate KED</li>
+                            <li>Balança de precisão</li>
                         </div>
                     </ul>
                 </div>

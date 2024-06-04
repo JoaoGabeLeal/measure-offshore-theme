@@ -2,8 +2,8 @@
     <div class="row">
         <div class="col-9">
             <div class="bloco-imagem">
-                <img class="imagem" src="<?php echo get_template_directory_uri(); ?>/assets/images/sensores-de-hms.png" alt="Sensores de HMS">
-                <img class="logomarca" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-branco-icone.png" alt="Sensores de HMS">
+                <img class="imagem" src="<?php echo get_template_directory_uri(); ?>/assets/images/sensores-de-hms.png" alt="sensores de HMS">
+                <img class="logomarca" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-branco-icone.png" alt="logomarca">
             </div>
         </div>
         <div class="col-11">

@@ -28,14 +28,14 @@
                     <ul class="lista" style="gap: 2rem">
                         <div>
                             <h6>Calibramos:</h6>
-                            <li>Termômetroo</li>
+                            <li>Termômetro</li>
                             <li>PT 100</li>
                             <li>Termopar</li>
                             <li>Termohigrômetro</li>
-                            <li>Calibrador de Temperatura </li>
+                            <li>Calibrador de temperatura </li>
                         </div>
                         <div>
-                            <h6>Qualificação Térmica:</h6>
+                            <h6>Qualificação térmica:</h6>
                             <li>Freezers</li>
                             <li>Refrigeradores</li>
                             <li>Câmaras de conservação</li>

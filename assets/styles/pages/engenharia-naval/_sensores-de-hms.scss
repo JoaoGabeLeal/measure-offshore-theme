@@ -3,6 +3,12 @@
     margin-top: 1rem;
     .bloco-imagem{
         position: relative;
+        .imagem{
+            width: 100%;
+            @include breakpoint(lg){
+                width: auto;
+            }
+        }
         .logomarca{
             width: 2rem;
             height: 2rem;
@@ -12,6 +18,10 @@
         }
     }
     .bloco-descricao{
+        margin-top: 1rem;
+        @include breakpoint(lg){
+            margin-top: 0;
+        }
         .titulo{
             @include title(2rem, 700, $cinza3, false);
             span{

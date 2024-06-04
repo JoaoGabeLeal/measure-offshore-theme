@@ -4,7 +4,7 @@
             <div class="col-20">
                 <div class="bloco-titulo">
                     <img class="icone" src="<?php bloginfo('template_url'); ?>/assets/icons/nr10.svg" alt="NR 10">
-                    <h6 class="titulo">Serviços de NR 10 - <span>Segurança em instalações em Eletricidade</span></h6>
+                    <h6 class="titulo">Serviços de NR 10 - <span>Segurança em instalações em eletricidade</span></h6>
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
                     <li>Cálculo de energia incidente (ATPV)</li>
                     <li>Elaboração de procedimentos de segurança NR10</li>
                     <li>Levantamento de certificados de equipamentos</li>
-                    <li>Especificação de EPI's, EPC's e Ferramental</li>
+                    <li>Especificação de EPI's, EPC's e ferramental</li>
                     <li>Gestão de ensaio de ferramentas e equipamentos de proteção</li>
                 </ul>
             </div>

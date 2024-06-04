@@ -19,7 +19,7 @@
                     Contamos com um calibrador de torque, capaz de medir uma ampla faixa de torques 
                     com precisão e confiabilidade. Além disso, podemos calibrar uma variedade de 
                     equipamentos, garantindo que todos os instrumentos estejam em conformidade com 
-                    os padrões exigidos  pela ISO 17.025:2017.
+                    os padrões exigidos pela ISO 17.025:2017.
                 </p>
             </div>
         </div>
@@ -30,10 +30,10 @@
                     <ul class="lista">
                         <div>
                             <li>Torquímetro</li>
-                            <li>Chave de Torque</li>
-                            <li>Torquímetro com Relógio</li>
+                            <li>Chave de torque</li>
+                            <li>Torquímetro com relógio</li>
                             <li>Dinamômetro</li>
-                            <li>Torquímetro Digital</li>
+                            <li>Torquímetro digital</li>
                         </div>
                     </ul>
                 </div>

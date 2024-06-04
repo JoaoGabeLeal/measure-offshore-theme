@@ -5,7 +5,7 @@
         <p class="servicos-descricao">
             A Measure Offshore realiza vistorias de segurança em helideques, 
             incluindo a calibração de equipamentos como estações meteorológicas 
-            e MRUs.  Oferecemos consultoria para certificação do helideque 
+            e MRUs. Oferecemos consultoria para certificação do helideque 
             junto à DPC e outras empresas reguladoras, abrangendo auditorias 
             em empresas, operadoras de helicópteros, meios náuticos e atividades 
             offshore.

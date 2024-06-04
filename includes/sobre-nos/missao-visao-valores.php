@@ -49,7 +49,7 @@
                 Lucratividade e rentabilidade
             </li>
             <li class="missao-visao-valores-topico-lista-item">
-                Desenvolvimento Profissional dos Colaboradores Apresentar firmeza, estabilidade e confiança
+                Desenvolvimento profissional dos colaboradores apresentar firmeza, estabilidade e confiança
             </li>
             <li class="missao-visao-valores-topico-lista-item">
                 Excelência dos serviços.

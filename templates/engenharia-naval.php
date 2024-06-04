@@ -19,6 +19,8 @@ get_header();
     <div class="container">
         <?php include(get_template_directory() . "/includes/engenharia-naval/equipamentos-calibrados.php"); ?>
     </div>
+    <?php include(get_template_directory() . "/includes/engenharia-naval/calibracao-de-anemometro.php"); ?>
+    <?php include(get_template_directory() . "/includes/engenharia-naval/tunel-de-vento.php"); ?>
 </div>
 
 <?php get_footer(); ?>

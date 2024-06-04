@@ -4,7 +4,7 @@
             <div class="col-20">
                 <div class="bloco-titulo">
                     <img class="icone" src="<?php bloginfo('template_url'); ?>/assets/icons/metrologia-optica.svg" alt="temperatura e umidade">
-                    <h6 class="titulo">Metrologia Óptica</h6>
+                    <h6 class="titulo">Metrologia óptica</h6>
                 </div>
             </div>
         </div>
@@ -29,8 +29,8 @@
                             <li>Interferômetros</li>
                             <li>Espectrofotômetros</li>
                             <li>Refratômetros</li>
-                            <li>Micrômetros Ópticos</li>
-                            <li>Perfilômetros Ópticos</li>
+                            <li>Micrômetros ópticos</li>
+                            <li>Perfilômetros ópticos</li>
                         </div>
                     </ul>
                 </div>
@@ -57,7 +57,7 @@
                         <img class="imagem" src="<?php bloginfo('template_url'); ?>/assets/images/micrometro-optico.png" alt="micrometro optico">
                         <div class="bloco-titulo">
                             <img class="logomarca" src="<?php bloginfo('template_url'); ?>/assets/images/logo-colorido-miniatura.png" alt="logomarca">
-                            <h6 class="titulo">Micrômetros Ópticos</h6>
+                            <h6 class="titulo">Micrômetros ópticos</h6>
                         </div>
                     </div>
                 </div>
