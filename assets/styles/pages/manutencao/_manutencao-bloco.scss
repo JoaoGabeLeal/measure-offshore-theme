@@ -1,5 +1,5 @@
 .bloco-manutencao{
-    background: url('assets/images/manutencao-linhas.png'), $roxo;
+    background: url('assets/images/manutencao-servicos-nr-linhas.png'), $roxo;
     background-repeat: no-repeat;
     background-position: bottom right;
     padding-bottom: 1.5rem;
@@ -79,15 +79,6 @@
     }
     .orcamento{
         float: right;
-        background-color: $verde;
-        text-decoration: none;
-        color: $branco;
-        font-size: 1.3rem;
-        margin-top: 1.5rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.6rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        border-radius: 0.5rem;
+        @include button-verde;
     }
 }

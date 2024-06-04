@@ -41,14 +41,15 @@
         }
         .entre-em-contato-descricao{
             margin-top: 0.5rem;
+            text-align: justify;
             font-size: 18px;
             color: $branco;
             span{
                 color: $amarelo;
             }
         }
-        .entre-em-contato-link{
-            @include button-verde(15.7rem);
+        .entre-em-contato-contato{
+            @include button-verde;
             margin-top: 2rem;
             @include breakpoint(lg){
                 float: right;

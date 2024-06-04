@@ -5,10 +5,12 @@
     }
     .quem-somos-conteudo{
         margin-top: 1rem;
+        margin-bottom: 1.5rem;
         display: flex;
         align-items: center;
         gap: 5rem;
         .quem-somos-descricao{
+            text-align: justify;
             font-weight: 300 !important;
             font-size: 1.5rem;
         }
@@ -22,7 +24,6 @@
         }
     }
     .quem-somos-saiba-mais{
-        @include button-verde(10.3rem);
-        margin-top: 1.5rem;
+        @include button-verde;
     }
 }

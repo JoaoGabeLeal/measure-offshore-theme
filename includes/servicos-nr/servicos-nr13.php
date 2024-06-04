@@ -1,5 +1,5 @@
-<div class="container" id="nr13">
-    <div class="servicos-nr-bloco">
+<div class="servicos-nr-bloco">
+    <div class="container" id="nr13">
         <div class="row">
             <div class="col-20">
                 <div class="bloco-titulo">

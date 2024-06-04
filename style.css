@@ -478,18 +478,16 @@ Tags: responsivo, negócios, corporativo
   position: absolute;
   bottom: -3rem;
   right: 0;
-  width: 9.3rem;
-  display: block;
+  background-color: #56B393;
   text-decoration: none;
-  text-transform: uppercase;
   color: #ffffff;
   font-size: 1.3rem;
+  margin-top: 1.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.6rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.5rem;
-  background-color: #56B393;
 }
 @media (min-width: 992px) {
   .descricao-separador .descricao .descricao-link {
@@ -714,21 +712,19 @@ Tags: responsivo, negócios, corporativo
   font-weight: 300 !important;
   padding: 0;
   margin-top: 1rem;
+  margin-bottom: 1.8rem;
 }
-.catalogo .catalogo-descricao .catalogo-link {
-  width: 7.5rem;
-  display: block;
+.catalogo .catalogo-descricao .catalogo-baixar {
+  background-color: #56B393;
   text-decoration: none;
-  text-transform: uppercase;
   color: #ffffff;
   font-size: 1.3rem;
+  margin-top: 1.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.6rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.5rem;
-  background-color: #56B393;
-  margin-top: 1.5rem;
 }
 .catalogo .catalogo-img {
   display: none;
@@ -826,6 +822,7 @@ Tags: responsivo, negócios, corporativo
   padding-top: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  text-align: justify;
   color: #000000;
   font-weight: 300;
   font-size: 1rem;
@@ -838,18 +835,16 @@ Tags: responsivo, negócios, corporativo
   color: #68358D;
 }
 .principais-servicos .principais-servicos-mais-servicos {
-  width: 12.7rem;
-  display: block;
+  background-color: #56B393;
   text-decoration: none;
-  text-transform: uppercase;
   color: #ffffff;
   font-size: 1.3rem;
+  margin-top: 1.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.6rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.5rem;
-  background-color: #56B393;
   margin-top: 1.5rem;
   float: right;
 }
@@ -864,11 +859,13 @@ Tags: responsivo, negócios, corporativo
 }
 .quem-somos .quem-somos-conteudo {
   margin-top: 1rem;
+  margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
   gap: 5rem;
 }
 .quem-somos .quem-somos-conteudo .quem-somos-descricao {
+  text-align: justify;
   font-weight: 300 !important;
   font-size: 1.5rem;
 }
@@ -883,23 +880,20 @@ Tags: responsivo, negócios, corporativo
   }
 }
 .quem-somos .quem-somos-saiba-mais {
-  width: 10.3rem;
-  display: block;
+  background-color: #56B393;
   text-decoration: none;
-  text-transform: uppercase;
   color: #ffffff;
   font-size: 1.3rem;
+  margin-top: 1.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.6rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.5rem;
-  background-color: #56B393;
-  margin-top: 1.5rem;
 }
 
 .noticias {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 .noticias .noticias-titulo {
   color: #68358D;
@@ -970,6 +964,7 @@ Tags: responsivo, negócios, corporativo
 }
 .noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-descricao {
   margin-top: 0.5rem;
+  text-align: justify;
   font-size: 1.2rem;
 }
 .noticias .noticias-loop .noticias-item .noticias-conteudo .noticias-saiba-mais {
@@ -1040,29 +1035,28 @@ Tags: responsivo, negócios, corporativo
 }
 .entre-em-contato .entre-em-contato-conteudo .entre-em-contato-descricao {
   margin-top: 0.5rem;
+  text-align: justify;
   font-size: 18px;
   color: #ffffff;
 }
 .entre-em-contato .entre-em-contato-conteudo .entre-em-contato-descricao span {
   color: #FFCA28;
 }
-.entre-em-contato .entre-em-contato-conteudo .entre-em-contato-link {
-  width: 15.7rem;
-  display: block;
+.entre-em-contato .entre-em-contato-conteudo .entre-em-contato-contato {
+  background-color: #56B393;
   text-decoration: none;
-  text-transform: uppercase;
   color: #ffffff;
   font-size: 1.3rem;
+  margin-top: 1.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.6rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.5rem;
-  background-color: #56B393;
   margin-top: 2rem;
 }
 @media (min-width: 992px) {
-  .entre-em-contato .entre-em-contato-conteudo .entre-em-contato-link {
+  .entre-em-contato .entre-em-contato-conteudo .entre-em-contato-contato {
     float: right;
     margin-right: 0rem;
   }
@@ -1075,6 +1069,7 @@ Tags: responsivo, negócios, corporativo
 }
 .nossa-historia .nossa-historia-paragrafo {
   margin-top: 1rem;
+  text-align: justify;
   color: #000000;
   font-weight: 300;
   font-size: 1rem;
@@ -1103,6 +1098,7 @@ Tags: responsivo, negócios, corporativo
 }
 .vantagens-e-beneficios .vantagens-e-beneficios-topico-paragrafo {
   margin-top: 0.8rem;
+  text-align: justify;
   color: #000000;
   font-weight: 300;
   font-size: 1rem;
@@ -1137,6 +1133,7 @@ Tags: responsivo, negócios, corporativo
 .missao-visao-valores .missao-visao-valores-topico .missao-visao-valores-topico-paragrafo {
   margin-top: 0.5rem;
   color: #000000;
+  text-align: justify;
   font-weight: 300;
   font-size: 1rem;
 }
@@ -1151,6 +1148,7 @@ Tags: responsivo, negócios, corporativo
 }
 .parceiros .parceiros-paragrafo {
   margin-top: 1rem;
+  text-align: justify;
   color: #000000;
   font-weight: 300;
   font-size: 1rem;
@@ -1430,6 +1428,7 @@ Tags: responsivo, negócios, corporativo
 .servicos-lista .servicos-item .servicos-descricao {
   margin-top: 0.8rem;
   margin-bottom: 2rem;
+  text-align: justify;
   font-size: 0.9rem;
   color: #444444 !important;
 }
@@ -1448,8 +1447,7 @@ Tags: responsivo, negócios, corporativo
 
 .servicos-nr-bloco {
   padding: 2rem;
-  border-radius: 1rem;
-  background: url("assets/images/nr-linhas.png"), #68358D;
+  background: url("assets/images/manutencao-servicos-nr-linhas.png"), #68358D;
   background-repeat: no-repeat;
   background-position: bottom right;
   padding-top: 1.5rem;
@@ -1535,7 +1533,7 @@ Tags: responsivo, negócios, corporativo
 }
 
 .bloco-manutencao {
-  background: url("assets/images/manutencao-linhas.png"), #68358D;
+  background: url("assets/images/manutencao-servicos-nr-linhas.png"), #68358D;
   background-repeat: no-repeat;
   background-position: bottom right;
   padding-bottom: 1.5rem;
@@ -1736,6 +1734,8 @@ Tags: responsivo, negócios, corporativo
 .bloco-calibracao .bloco-ilustracoes .ilustracoes-item .imagem {
   width: 100%;
   margin-top: -0.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .bloco-calibracao .bloco-ilustracoes .ilustracoes-item .bloco-titulo {
   margin-top: 0.55rem;
@@ -1764,4 +1764,135 @@ Tags: responsivo, negócios, corporativo
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.5rem;
+}
+
+.engenharia-naval-titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+
+.sensores-de-hms {
+  position: relative;
+  margin-top: 1rem;
+}
+.sensores-de-hms .bloco-imagem {
+  position: relative;
+}
+.sensores-de-hms .bloco-imagem .logomarca {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+.sensores-de-hms .bloco-descricao .titulo {
+  color: #444444;
+  font-size: 2rem;
+  font-weight: 700 !important;
+}
+.sensores-de-hms .bloco-descricao .titulo span {
+  color: #68358D;
+}
+.sensores-de-hms .bloco-descricao .descricao {
+  margin-top: 1rem;
+  text-align: justify;
+  font-size: 1.4rem;
+  color: #444444;
+}
+.sensores-de-hms .contato {
+  position: absolute;
+  right: 0;
+  background-color: #56B393;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.especializados {
+  position: relative;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: url("assets/images/engenharia-naval-especializados.png") no-repeat center center;
+  background-size: cover;
+}
+.especializados::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(104, 53, 141, 0.8980392157);
+  z-index: 1;
+}
+.especializados .titulo {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 400 !important;
+}
+.especializados .especializados-lista {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.especializados .especializados-lista .especializados-item {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  text-decoration: none;
+}
+.especializados .especializados-lista .especializados-item .imagem {
+  width: 100%;
+  margin-top: -0.5rem;
+}
+.especializados .especializados-lista .especializados-item .titulo {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0.5rem;
+  color: #68358D;
+  font-size: 1.1rem;
+  font-weight: 700 !important;
+}
+.especializados .especializados-lista .especializados-item .descricao {
+  margin-bottom: 3.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0.5rem;
+  text-align: justify;
+  color: #444444;
+}
+.especializados .especializados-lista .especializados-item .orcamento-rapido {
+  width: 100%;
+  position: absolute;
+  bottom: 1.3rem;
+  text-align: center;
+  color: #68358D;
+}
+
+.equipamentos-calibrados {
+  margin-top: 1.5rem;
+}
+.equipamentos-calibrados .bloco-titulo .titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+.equipamentos-calibrados .bloco-titulo .subtitulo {
+  margin-top: 0.5rem;
+  color: #444444;
+  font-size: 1.2rem;
+  font-weight: 700 !important;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,63 @@
+.especializados{
+    position: relative;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: url('assets/images/engenharia-naval-especializados.png') no-repeat center center;
+    background-size: cover;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #68358de5;
+        z-index: 1;
+    }
+
+    .titulo{
+        position: relative;
+        z-index: 2;
+        @include title(2rem, 400, $branco, false);
+    }
+    .especializados-lista{
+        margin-top: 2rem;
+        display: flex;
+        gap: 1rem;
+        .especializados-item{
+            width: 100%;
+            position: relative;
+            z-index: 2;
+            background-color: $branco;
+            border-radius: 0.8rem;
+            overflow: hidden;
+            text-decoration: none;
+            .imagem{
+                width: 100%;
+                margin-top: -0.5rem;
+            }
+            .titulo{
+                padding-left: 1rem;
+                padding-right: 1rem;
+                margin-top: 0.5rem;
+                @include title(1.1rem, 700, $roxo, false);
+            }
+            .descricao{
+                margin-bottom: 3.5rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                margin-top: 0.5rem;
+                text-align: justify;
+                color: $cinza3;
+            }
+            .orcamento-rapido{
+                width: 100%;
+                position: absolute;
+                bottom: 1.3rem;
+                text-align: center;
+                color: $roxo;
+            }
+        }
+    }
+}

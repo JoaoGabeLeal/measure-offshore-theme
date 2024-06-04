@@ -28,10 +28,10 @@
             font-weight: 300 !important;
             padding: 0;
             margin-top: 1rem;
+            margin-bottom: 1.8rem;
         }
-        .catalogo-link{
-            @include button-verde();
-            margin-top: 1.5rem;
+        .catalogo-baixar{
+            @include button-verde;
         }
     }
     .catalogo-img{

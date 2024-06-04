@@ -5,6 +5,6 @@
         <p class="entre-em-contato-descricao">
             Solicite um orçamento agora mesmo! Nossa equipe está ansiosa<br/> para entender suas necessidades e oferecer <span>soluções</span> personalizadas<br/> para o seu projeto.
         </p>
-        <a href="contato.php" class="entre-em-contato-link">Entre em contato</a>
+        <a href="contato.php" class="entre-em-contato-contato">Entre em contato</a>
     </div>
 </section>

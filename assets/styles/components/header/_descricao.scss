@@ -39,7 +39,7 @@
             position: absolute;
             bottom: -3rem;
             right: 0;
-            @include button-verde(9.3rem);
+            @include button-verde;
             @include breakpoint(lg){
                 position: absolute;
                 bottom: -1.3rem; // Ajuste para alinhar o link

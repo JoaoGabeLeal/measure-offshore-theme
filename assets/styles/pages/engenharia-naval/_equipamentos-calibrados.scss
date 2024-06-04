@@ -1,0 +1,12 @@
+.equipamentos-calibrados{
+    margin-top: 1.5rem;
+    .bloco-titulo{
+        .titulo{
+            @include title;
+        }
+        .subtitulo{
+            margin-top: 0.5rem;
+            @include title(1.2rem, 700, $cinza3, false);
+        }
+    }
+}

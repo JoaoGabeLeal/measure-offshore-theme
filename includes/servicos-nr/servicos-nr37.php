@@ -1,5 +1,5 @@
-<div class="container" id="nr37">
-    <div class="servicos-nr-bloco" style="background-color: #56B393">
+<div class="servicos-nr-bloco" style="background-color: #56B393">
+    <div class="container" id="nr37">
         <div class="row">
             <div class="col-20">
                 <div class="bloco-titulo">

@@ -1,5 +1,5 @@
 .noticias{
-    margin-top: 2rem;
+    margin-top: 3rem;
     .noticias-titulo{
         @include title();
     }
@@ -54,6 +54,7 @@
                 }
                 .noticias-descricao{
                     margin-top: 0.5rem;
+                    text-align: justify;
                     font-size: 1.2rem;
                 }
                 .noticias-saiba-mais{

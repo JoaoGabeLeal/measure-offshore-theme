@@ -64,6 +64,7 @@
                 padding-top: 0.5rem;
                 padding-left: 1rem;
                 padding-right: 1rem;
+                text-align: justify;
                 color: $preto;
                 font-weight: 300;
                 font-size: 1rem;
@@ -78,7 +79,7 @@
         }
     }
     .principais-servicos-mais-servicos{
-        @include button-verde(12.7rem);
+        @include button-verde;
         margin-top: 1.5rem;
         float: right;
     }
