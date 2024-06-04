@@ -1,14 +1,17 @@
 .tunel-de-vento{
     margin-top: 2rem;
+    position: relative;
     .bloco-imagem{
-        width: 452px;
-        height: 28rem;
+        width: 100%;
+        height: 28.5rem;
         overflow: hidden;
         border-radius: 1.5rem;
         background-color: $roxo;
         position: relative;
         .imagem{
-            margin-top: -0.5rem;
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
         }
         .logomarca{
             width: 8rem;
@@ -64,6 +67,7 @@
         @include breakpoint(lg){
             width: 18rem;
             height: 28rem;
+            display: block;
             float:right;
             overflow: hidden;
             border-radius: 1.5rem;
@@ -82,6 +86,8 @@
         }
     }
     .fale-conosco{
+        position: absolute;
+        bottom: -3rem;
         @include button-verde;
     }
 }

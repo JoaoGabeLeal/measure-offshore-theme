@@ -1,0 +1,19 @@
+.norma-abnt{
+    background: url('assets/images/manutencao-servicos-nr-linhas.png'), $roxo;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .logomarca{
+        width: 10rem;
+    }
+    .descricao{
+        color: $branco;
+        text-align: justify;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}

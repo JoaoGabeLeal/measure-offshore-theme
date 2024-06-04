@@ -1,0 +1,40 @@
+.especificacoes{
+    position: relative;
+    background: url('assets/images/engenharia-clinica-qualificacoes-linhas.png'), $verde;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    .titulo{
+        margin-left: 1rem;
+        @include title(2rem, 700, $branco, false);
+    }
+    .lista{
+        margin-top: 0.5rem;
+        li{
+            margin-bottom: 0.3rem;
+            list-style: none;
+            color: $branco;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+    }
+    .logomarca{
+        width: 10rem;
+        position: absolute;
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+}
+
+.fale-conosco-bloco{
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    .fale-conosco{
+        position: absolute;
+        right: 0;
+        @include button-verde;
+    }
+}

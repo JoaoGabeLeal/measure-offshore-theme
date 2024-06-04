@@ -1,0 +1,43 @@
+.solucoes-personalizadas-equipamentos-medicos{
+    position: relative;
+    margin-top: 1rem;
+    .bloco-imagem{
+        position: relative;
+        .imagem{
+            width: 100%;
+            @include breakpoint(lg){
+                width: auto;
+            }
+        }
+        .logomarca{
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            bottom: 1.5rem;
+            left: 1.5rem;
+        }
+    }
+    .bloco-descricao{
+        margin-top: 1rem;
+        @include breakpoint(lg){
+            margin-top: 0;
+        }
+        .titulo{
+            @include title(2rem, 700, $cinza3, false);
+            span{
+                color: $roxo;
+            }
+        }
+        .descricao{
+            margin-top: 1rem;
+            text-align: justify;
+            font-size: 1.4rem;
+            color: $cinza3;
+        }
+    }
+    .contato{
+        position: absolute;
+        right: 0;
+        @include button-verde;
+    }
+}

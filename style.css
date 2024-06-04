@@ -336,7 +336,6 @@ Tags: responsivo, negócios, corporativo
 .navbar .navbar-list .navbar-item {
   list-style: none;
   margin-bottom: 1rem;
-  position: relative;
 }
 @media (min-width: 992px) {
   .navbar .navbar-list .navbar-item {
@@ -381,7 +380,7 @@ Tags: responsivo, negócios, corporativo
   margin-top: 2rem;
   display: none;
   position: absolute;
-  z-index: 2;
+  z-index: 99999;
 }
 @media (min-width: 1370px) {
   .navbar .navbar-dropdown {
@@ -1950,13 +1949,13 @@ Tags: responsivo, negócios, corporativo
 }
 .equipamentos-calibrados .equipamentos-lista .equipamentos-item {
   width: 100%;
-  height: 30rem;
+  height: 22.8rem;
+  padding-bottom: 1rem;
   background-color: #68358D;
 }
 @media (min-width: 992px) {
   .equipamentos-calibrados .equipamentos-lista .equipamentos-item {
-    width: 20.5rem;
-    height: 22.5rem;
+    width: 20.65rem;
   }
 }
 .equipamentos-calibrados .equipamentos-lista .equipamentos-item .imagem {
@@ -1973,10 +1972,10 @@ Tags: responsivo, negócios, corporativo
   top: 0.7rem;
 }
 .equipamentos-calibrados .equipamentos-lista .equipamentos-item .bloco-titulo .titulo {
-  padding-top: 0.9rem;
+  padding-top: 1.1rem;
   text-align: center;
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 700 !important;
 }
 
@@ -1984,7 +1983,7 @@ Tags: responsivo, negócios, corporativo
   position: relative;
   margin-top: 2rem;
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   background: url("assets/images/calibracao-de-anemometro.png") no-repeat center center;
   background-size: cover;
 }
@@ -1995,7 +1994,7 @@ Tags: responsivo, negócios, corporativo
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(104, 53, 141, 0.2705882353);
+  background: rgba(104, 53, 141, 0.1960784314);
   z-index: 1;
 }
 .calibracao-de-anemometro .titulo {
@@ -2017,8 +2016,9 @@ Tags: responsivo, negócios, corporativo
   color: #ffffff;
 }
 .calibracao-de-anemometro .saibamais {
-  position: relative;
+  position: absolute;
   z-index: 2;
+  bottom: 2.5rem;
   background-color: #56B393;
   text-decoration: none;
   color: #ffffff;
@@ -2033,17 +2033,21 @@ Tags: responsivo, negócios, corporativo
 
 .tunel-de-vento {
   margin-top: 2rem;
+  position: relative;
 }
 .tunel-de-vento .bloco-imagem {
-  width: 452px;
-  height: 28rem;
+  width: 100%;
+  height: 28.5rem;
   overflow: hidden;
   border-radius: 1.5rem;
   background-color: #68358D;
   position: relative;
 }
 .tunel-de-vento .bloco-imagem .imagem {
-  margin-top: -0.5rem;
+  width: 100%;
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .tunel-de-vento .bloco-imagem .logomarca {
   width: 8rem;
@@ -2104,6 +2108,7 @@ Tags: responsivo, negócios, corporativo
   .tunel-de-vento .bloco-imagem2 {
     width: 18rem;
     height: 28rem;
+    display: block;
     float: right;
     overflow: hidden;
     border-radius: 1.5rem;
@@ -2122,6 +2127,191 @@ Tags: responsivo, negócios, corporativo
   }
 }
 .tunel-de-vento .fale-conosco {
+  position: absolute;
+  bottom: -3rem;
+  background-color: #56B393;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.engenharia-clinica-titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+
+.solucoes-personalizadas-equipamentos-medicos {
+  position: relative;
+  margin-top: 1rem;
+}
+.solucoes-personalizadas-equipamentos-medicos .bloco-imagem {
+  position: relative;
+}
+.solucoes-personalizadas-equipamentos-medicos .bloco-imagem .imagem {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .solucoes-personalizadas-equipamentos-medicos .bloco-imagem .imagem {
+    width: auto;
+  }
+}
+.solucoes-personalizadas-equipamentos-medicos .bloco-imagem .logomarca {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+.solucoes-personalizadas-equipamentos-medicos .bloco-descricao {
+  margin-top: 1rem;
+}
+@media (min-width: 992px) {
+  .solucoes-personalizadas-equipamentos-medicos .bloco-descricao {
+    margin-top: 0;
+  }
+}
+.solucoes-personalizadas-equipamentos-medicos .bloco-descricao .titulo {
+  color: #444444;
+  font-size: 2rem;
+  font-weight: 700 !important;
+}
+.solucoes-personalizadas-equipamentos-medicos .bloco-descricao .titulo span {
+  color: #68358D;
+}
+.solucoes-personalizadas-equipamentos-medicos .bloco-descricao .descricao {
+  margin-top: 1rem;
+  text-align: justify;
+  font-size: 1.4rem;
+  color: #444444;
+}
+.solucoes-personalizadas-equipamentos-medicos .contato {
+  position: absolute;
+  right: 0;
+  background-color: #56B393;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.norma-abnt {
+  background: url("assets/images/manutencao-servicos-nr-linhas.png"), #68358D;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.norma-abnt .logomarca {
+  width: 10rem;
+}
+.norma-abnt .descricao {
+  color: #ffffff;
+  text-align: justify;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.equipamentos-que-efetuamos-calibracao {
+  margin-top: 1.5rem;
+}
+.equipamentos-que-efetuamos-calibracao .bloco-titulo .titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+.equipamentos-que-efetuamos-calibracao .equipamentos-lista {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.equipamentos-que-efetuamos-calibracao .equipamentos-lista .equipamentos-item {
+  width: 100%;
+  height: 19.9rem;
+  background-color: #68358D;
+}
+@media (min-width: 992px) {
+  .equipamentos-que-efetuamos-calibracao .equipamentos-lista .equipamentos-item {
+    width: 20.65rem;
+  }
+}
+.equipamentos-que-efetuamos-calibracao .equipamentos-lista .equipamentos-item .imagem {
+  width: 100%;
+  height: 264px;
+  margin-top: -0.5rem;
+}
+.equipamentos-que-efetuamos-calibracao .equipamentos-lista .equipamentos-item .bloco-titulo {
+  position: relative;
+}
+.equipamentos-que-efetuamos-calibracao .equipamentos-lista .equipamentos-item .bloco-titulo .logomarca {
+  width: 2rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 0.7rem;
+}
+.equipamentos-que-efetuamos-calibracao .equipamentos-lista .equipamentos-item .bloco-titulo .titulo {
+  padding-top: 1.1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700 !important;
+}
+
+.especificacoes {
+  position: relative;
+  background: url("assets/images/engenharia-clinica-qualificacoes-linhas.png"), #56B393;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.especificacoes .titulo {
+  margin-left: 1rem;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700 !important;
+}
+.especificacoes .lista {
+  margin-top: 0.5rem;
+}
+.especificacoes .lista li {
+  margin-bottom: 0.3rem;
+  list-style: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.especificacoes .logomarca {
+  width: 10rem;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+.fale-conosco-bloco {
+  width: 100%;
+  height: 5rem;
+  position: relative;
+}
+.fale-conosco-bloco .fale-conosco {
+  position: absolute;
+  right: 0;
   background-color: #56B393;
   text-decoration: none;
   color: #ffffff;
