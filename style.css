@@ -1952,7 +1952,7 @@ Tags: responsivo, negócios, corporativo
 }
 .equipamentos-calibrados .equipamentos-lista .equipamentos-item {
   width: 100%;
-  height: 20rem;
+  height: 19.8rem;
   padding-bottom: 1rem;
   background-color: #68358D;
 }
@@ -2517,4 +2517,191 @@ Tags: responsivo, negócios, corporativo
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.5rem;
+}
+
+.engenharia-eletrica-titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+
+.ensaios-dieletricos-para-epi-epc {
+  position: relative;
+  margin-top: 1rem;
+}
+.ensaios-dieletricos-para-epi-epc .bloco-imagem {
+  position: relative;
+}
+.ensaios-dieletricos-para-epi-epc .bloco-imagem .imagem {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .ensaios-dieletricos-para-epi-epc .bloco-imagem .imagem {
+    width: auto;
+  }
+}
+.ensaios-dieletricos-para-epi-epc .bloco-imagem .logomarca {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+.ensaios-dieletricos-para-epi-epc .bloco-descricao {
+  margin-top: 1rem;
+}
+@media (min-width: 992px) {
+  .ensaios-dieletricos-para-epi-epc .bloco-descricao {
+    margin-top: 0;
+  }
+}
+.ensaios-dieletricos-para-epi-epc .bloco-descricao .titulo {
+  color: #444444;
+  font-size: 2rem;
+  font-weight: 700 !important;
+}
+.ensaios-dieletricos-para-epi-epc .bloco-descricao .titulo span {
+  color: #68358D;
+}
+.ensaios-dieletricos-para-epi-epc .bloco-descricao .descricao {
+  margin-top: 1rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #444444;
+}
+
+.equipamentos-que-efetuamos-ensaio {
+  margin-top: 2.5rem;
+}
+.equipamentos-que-efetuamos-ensaio .bloco-titulo .titulo {
+  color: #68358D;
+  font-size: 2rem;
+  font-weight: 300 !important;
+}
+.equipamentos-que-efetuamos-ensaio .bloco-titulo .subtitulo {
+  margin-top: 0.5rem;
+  color: #444444;
+  font-size: 1.2rem;
+  font-weight: 700 !important;
+}
+.equipamentos-que-efetuamos-ensaio .equipamentos-lista {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.equipamentos-que-efetuamos-ensaio .equipamentos-lista .equipamentos-item {
+  width: 100%;
+  height: 19.8rem;
+  padding-bottom: 1rem;
+  background-color: #68358D;
+}
+@media (min-width: 992px) {
+  .equipamentos-que-efetuamos-ensaio .equipamentos-lista .equipamentos-item {
+    width: 20.65rem;
+  }
+}
+.equipamentos-que-efetuamos-ensaio .equipamentos-lista .equipamentos-item .imagem {
+  width: 100%;
+  height: 264px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: -0.5rem;
+}
+@media (min-width: 992px) {
+  .equipamentos-que-efetuamos-ensaio .equipamentos-lista .equipamentos-item .imagem {
+    -o-object-fit: initial;
+       object-fit: initial;
+  }
+}
+.equipamentos-que-efetuamos-ensaio .equipamentos-lista .equipamentos-item .bloco-titulo {
+  position: relative;
+}
+.equipamentos-que-efetuamos-ensaio .equipamentos-lista .equipamentos-item .bloco-titulo .logomarca {
+  width: 2rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 0.7rem;
+}
+.equipamentos-que-efetuamos-ensaio .equipamentos-lista .equipamentos-item .bloco-titulo .titulo {
+  padding-top: 1.1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700 !important;
+}
+
+.ensaios {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: url("assets/images/manutencao-servicos-nr-linhas.png"), #68358D;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.ensaios .titulo {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700 !important;
+}
+.ensaios .lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.ensaios .lista li {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.conformidade-nr10 {
+  background-color: #56B393;
+  margin-top: 2rem;
+}
+.conformidade-nr10 .bloco-imagem {
+  width: 100%;
+  height: 452px;
+  position: relative;
+}
+.conformidade-nr10 .bloco-imagem .imagem {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 992px) {
+  .conformidade-nr10 .bloco-imagem .imagem {
+    width: auto;
+  }
+}
+.conformidade-nr10 .bloco-imagem .logomarca {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+.conformidade-nr10 .bloco-descricao .titulo {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700 !important;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.conformidade-nr10 .bloco-descricao .descricao {
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.conformidade-nr10 .bloco-logomarca {
+  width: 95%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.conformidade-nr10 .bloco-logomarca .logomarca {
+  width: 10rem;
 }/*# sourceMappingURL=style.css.map */

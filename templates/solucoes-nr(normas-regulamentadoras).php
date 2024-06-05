@@ -14,7 +14,7 @@ get_header();
             </div>
         </div>
     </div>
-    <?php include(get_template_directory() . "/includes/servicos-nr/solucoes-nr10.php"); ?>
+    <?php include(get_template_directory() . "/includes/solucoes-nr/solucoes-nr10.php"); ?>
     <?php include(get_template_directory() . "/includes/solucoes-nr/solucoes-nr12.php"); ?>
     <?php include(get_template_directory() . "/includes/solucoes-nr/solucoes-nr13.php"); ?>
     <?php include(get_template_directory() . "/includes/solucoes-nr/solucoes-nr33.php"); ?>

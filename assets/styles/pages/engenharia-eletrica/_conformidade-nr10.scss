@@ -1,0 +1,45 @@
+.conformidade-nr10{
+    background-color: $verde;
+    margin-top: 2rem;
+    .bloco-imagem{
+        width: 100%;
+        height: 452px;
+        position: relative;
+        .imagem{
+            width: 100%;
+            height: 100%;
+            @include breakpoint(lg){
+                width: auto;
+            }
+        }
+        .logomarca{
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            bottom: 1.5rem;
+            left: 1.5rem;
+        }
+    }
+    .bloco-descricao{
+        .titulo{
+            @include title(2rem, 700, $branco);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .descricao{
+            font-weight: 300;
+            font-size: 1.3rem;
+            color: $branco;
+        }
+    }
+    .bloco-logomarca{
+        width: 95%;
+        float: right;
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        .logomarca{
+            width: 10rem;
+        }
+    }
+}

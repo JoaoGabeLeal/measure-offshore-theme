@@ -33,27 +33,22 @@
                             <span class="navbar-dropdown-divisor">Divisão de conformidade legal</span>
                             <ul class="navbar-dropdown-list">
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="serviços de nr 10">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/solucoes-nr#nr10'); ?>" title="serviços de nr 10">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Serviços de NR 10
                                     </a>
                                 </li>
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="serviços de nr 33">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/solucoes-nr#nr33'); ?>" title="serviços de nr 33">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Serviços de NR 33
                                     </a>
                                 </li>
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="serviços de nr 34">
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Serviços de NR 34
-                                    </a>
-                                </li>
-                                <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="serviços de nr 35">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/solucoes-nr#nr35'); ?>" title="serviços de nr 35">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Serviços de NR 35
                                     </a>
                                 </li>
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="serviços de nr 37">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/solucoes-nr#nr37'); ?>" title="serviços de nr 37">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Serviços de NR 37
                                     </a>
                                 </li>
@@ -63,17 +58,17 @@
                             <span class="navbar-dropdown-divisor">Divisão de engenharia</span>
                             <ul class="navbar-dropdown-list">
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="engenharia clínica">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/engenharia-clinica'); ?>" title="engenharia clínica">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Engenharia clínica
                                     </a>
                                 </li>
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="engenharia navbaral">
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Engenharia navbaral
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/engenharia-naval'); ?>" title="engenharia naval">
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Engenharia naval
                                     </a>
                                 </li>
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="engenharia elétrica">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/engenharia-eletrica'); ?>" title="engenharia elétrica">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Engenharia elétrica
                                     </a>
                                 </li>
