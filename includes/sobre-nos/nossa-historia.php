@@ -1,9 +1,9 @@
 <section class="nossa-historia">
     <h1 class="nossa-historia-titulo">Nossa história</h1>
     <p class="nossa-historia-paragrafo">
-        Fundada em outubro de 2020, a Measure Offshore iniciou suas atividades. A Measure Offshore Serviço de Engenharia 
-        Elétrica e Naval e Comercio do Brasil Ltda. Fornece soluções no âmbito da Engenharia Naval, Clínica e Elétrica, 
-        focando em Calibração, Manutenção, Ensaios, Certificação, Projetos e Consultoria Ambiental, com uma estrutura 
+        Fundada em outubro de 2020, a Measure Offshore Serviço de Engenharia 
+        Elétrica e Naval e Comercio do Brasil LTDA fornece soluções no âmbito da engenharia naval, clínica e elétrica, 
+        focando em calibração, manutenção, ensaios, certificação, projetos e consultoria ambiental, com uma estrutura 
         específica para atender demandas offshore e onshore.
     </p>
     <p class="nossa-historia-paragrafo">
@@ -15,8 +15,8 @@
         A sala hospitalar é equipada com padrões e equipamentos que simulam sinais vitais para atender à demanda de um 
         laboratório de calibração e certificação offshore, onshore e manutenção de equipamentos. A Measure Offshore é uma 
         empresa moderna que utiliza equipamentos modernos de última geração e um sistema informatizado, com rigoroso 
-        controle de qualidade metrológico através de software de metrologia que controla a rastreabilidade do Sistema 
-        de Gestão Integrado (SGI).
+        controle de qualidade metrológico através de software de metrologia que controla a rastreabilidade do sistema 
+        de gestão integrado (SGI).
     </p>
     <p class="nossa-historia-paragrafo">
         Nossa equipe de serviço é composta por engenheiros clínicos e eletricistas, técnicos, enfermeiros e 

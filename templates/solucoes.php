@@ -10,7 +10,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-20">
-                <?php include(get_template_directory() . "/includes/solucoes/servicos-titulo.php"); ?>
+                <?php include(get_template_directory() . "/includes/solucoes/solucoes-titulo.php"); ?>
             </div>
         </div>
         <div class="row">

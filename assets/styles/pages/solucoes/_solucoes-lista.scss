@@ -1,34 +1,34 @@
-.servicos-lista-titulo{
+.solucoes-lista-titulo{
     @include title(1.5rem, 400, $cinza3);
     margin-top: 2rem;
     margin-bottom: 1rem;
 
 }
-.servicos-lista{
+.solucoes-lista{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    .servicos-item{
+    .solucoes-item{
         width: 100%;
         position: relative;
         padding: 1.5rem;
         border-radius: 0.5rem;
-        background-color: $cinza2;
+        border: 0.1rem solid $cinza2;
+        background-color: $cinza !important;
         text-decoration: none;
         @include breakpoint(sm){
             width: 15rem;
         }
-        .servicos-titulo{
+        .solucoes-titulo{
             @include title(1.3rem, 400, $roxo);
         }
-        .servicos-descricao{
+        .solucoes-descricao{
             margin-top: 0.8rem;
             margin-bottom: 2rem;
-            text-align: justify;
             font-size: 0.9rem;
             color: $cinza3 !important;
         }
-        .servicos-saibamais{
+        .solucoes-saibamais{
             position: absolute;
             bottom: 1.2rem;
             background: none;

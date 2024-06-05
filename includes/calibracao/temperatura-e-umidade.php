@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-20">
                 <div class="bloco-servicos">
-                    <ul class="lista" style="gap: 2rem">
+                    <ul class="lista">
                         <div>
                             <h6>Calibramos:</h6>
                             <li>Termômetro</li>

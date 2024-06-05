@@ -1,1 +1,1 @@
-<h6 class="servicos-de-manutencao-titulo">Laboratório de Calibração</h6>
+<h6 class="servicos-de-manutencao-titulo">Laboratório de calibração</h6>

@@ -30,7 +30,7 @@
         }
         .descricao{
             margin-top: 1rem;
-            text-align: justify;
+            font-weight: 300;
             font-size: 1.4rem;
             color: $cinza3;
         }
@@ -38,6 +38,7 @@
     .contato{
         position: absolute;
         right: 0;
+        bottom: 0;
         @include button-verde;
     }
 }

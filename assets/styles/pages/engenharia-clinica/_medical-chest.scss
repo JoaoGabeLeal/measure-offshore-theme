@@ -1,0 +1,109 @@
+.medical-chest {
+    margin-top: 2rem;
+
+    .medical-chest-apresentacao {
+        .titulo {
+            @include title;
+        }
+        .imagem {
+            width: 100%;
+            margin-top: 3rem;
+        }
+        .bloco-descricao {
+            margin-top: 1rem;
+            .titulo {
+                @include title(2rem, 700, $cinza3, false);
+                span {
+                    color: $roxo;
+                }
+            }
+            .descricao {
+                width: 100%;
+                padding-top: 1.5rem;
+                padding-bottom: 0.5rem;
+                font-weight: 300;
+                font-size: 1.25rem;
+                color: $preto;
+                span {
+                    font-weight: 700;
+                    color: $cinza3;
+                    strong {
+                        color: $roxo;
+                    }
+                }
+            }
+            .faleconosco {
+                float: right;
+                @include button-verde;
+            }
+        }
+    }
+
+    .medical-chest-descricao{
+        position: relative;
+        margin-top: 2rem;
+        background: url('assets/images/medical-chest2.png'), $roxo;
+        background-size: cover;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: #68358dd0;
+            z-index: 1;
+        }
+        .descricao{
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            color: $branco;
+            font-weight: 700;
+            font-size: 1.5rem;
+            span{
+                font-weight: 700;
+                color: $branco;
+            }
+        }
+    }
+
+    .medical-chest-topicos{
+        margin-top: 2.5rem;
+        .bloco-topico{
+            margin-bottom: 2.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .bloco-conteudo{
+                .titulo{
+                    @include title(2rem, 700, $cinza3, false);
+                }
+                .descricao{
+                    margin-top: 0.5rem;
+                    font-weight: 300;
+                    font-size: 1.3rem;
+                    color: $cinza3;
+                }
+            }
+        }
+        .bloco-imagem{
+            display: none;
+            @include breakpoint(lg){
+                display: block;
+                float:right;
+                overflow: hidden;
+            }
+        }
+        .fale-conosco{
+            position: absolute;
+            bottom: -1rem;
+            @include button-verde;
+        }
+    }
+}

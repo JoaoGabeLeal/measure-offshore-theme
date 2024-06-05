@@ -1,1 +1,1 @@
-<h6 class="engenharia-naval-titulo">Engenharia Clínica</h6>
+<h6 class="engenharia-naval-titulo">Engenharia clínica</h6>

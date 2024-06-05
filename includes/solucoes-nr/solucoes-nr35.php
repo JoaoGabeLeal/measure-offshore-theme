@@ -1,4 +1,4 @@
-<div class="servicos-nr-bloco">
+<div class="solucoes-nr-bloco">
     <div class="container" id="nr35">
         <div class="row">
             <div class="col-20">

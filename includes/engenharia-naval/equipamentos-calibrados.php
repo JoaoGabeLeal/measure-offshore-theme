@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-20">
             <div class="bloco-titulo">
-                <h5 class="titulo">Equipamentos Calibrados</h5>
+                <h5 class="titulo">Equipamentos calibrados</h5>
                 <h6 class="subtitulo">
                     Estes são alguns dos equipamentos para os quais prestamos serviços de manutenção, 
                     calibração e certificação, seguindo rigorosamente os padrões da 

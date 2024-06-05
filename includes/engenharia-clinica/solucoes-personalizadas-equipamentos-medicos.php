@@ -10,8 +10,8 @@
                 <div class="bloco-descricao">
                     <h6 class="titulo">Soluções <span>personalizadas</span> para equipamentos médicos</h6>
                     <p class="descricao">
-                        Atuamos na Engenharia CLÍNICA, na Gestão e na Execução da Manutenção Predial 
-                        Hospitalar dos Estabelecimentos Offshore, Assistenciais de Saúde Pública ou Privada, 
+                        Atuamos na engenharia clínica, na gestão e na execução da manutenção predial 
+                        hospitalar dos estabelecimentos offshore, assistenciais de saúde pública ou privada, 
                         como aquisição, implementação, gerenciamento e manutenção de equipamentos e infraestrutura, 
                         seguindo norma NBR ISO-IEC 17025 e outras, também desenvolvemos equipamentos especiais 
                         e instrumentos de medição para a indústria e produção científica.

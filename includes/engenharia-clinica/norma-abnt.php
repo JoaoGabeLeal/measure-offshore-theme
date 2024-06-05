@@ -8,9 +8,9 @@
         <div class="row">
             <div class="col-20">
                 <p class="descricao">
-                    Baseada na norma ABNT-NBR-IEC- 60601-2-4:2014 calibração de equipamentos hospitalar: Desfibrilador, Cardioversor, 
+                    Baseada na norma ABNT-NBR-IEC- 60601-2-4:2014 calibração de equipamentos hospitalar: desfibrilador, cardioversor, 
                     monitor multiparamétricos, bomba infusora, oxímetros, balanças, fluxômetros entre outros e com isso, a 
-                    Engenharia Clínica se torna cada vez mais presente e necessária nas instituições de saúde.
+                    engenharia clínica se torna cada vez mais presente e necessária nas instituições de saúde.
                 </p>
             </div>
         </div>

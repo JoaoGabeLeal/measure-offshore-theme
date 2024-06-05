@@ -1,80 +1,18 @@
 .tunel-de-vento{
     margin-top: 2rem;
     position: relative;
-    .bloco-imagem{
-        width: 100%;
-        height: 28.5rem;
-        overflow: hidden;
-        border-radius: 1.5rem;
-        background-color: $roxo;
-        position: relative;
-        .imagem{
+    .tunel-de-vento-apresentacao{
+        .bloco-imagem{
             width: 100%;
-            height: 380px;
-            object-fit: cover;
-        }
-        .logomarca{
-            width: 8rem;
-            position: absolute;
-            left: 50%;
-            bottom: 1.3rem;
-            transform: translateX(-50%);
-        }
-    }
-    .bloco-descricao{
-        width: 100%;
-        margin-top: 1.5rem;
-        @include breakpoint(lg){
-            width: 95%;
-            float: right;
-            margin-top: 0;
-        }
-        .titulo{
-            @include title(2rem, 700, $cinza3, false);
-            span{
-                color: $roxo;
-            }
-        }
-        .descricao{
-            margin-top: 1rem;
-            text-align: justify;
-            font-size: 1.3rem;
-            color: $cinza3;
-        }
-    }
-    .bloco-topico{
-        margin-bottom: 2.5rem;
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        &:last-child{
-            margin-bottom: 0;
-        }
-        .bloco-conteudo{
-            .titulo{
-                @include title(2rem, 700, $cinza3, false);
-            }
-            .descricao{
-                margin-top: 0.5rem;
-                text-align: justify;
-                font-size: 1.3rem;
-                color: $cinza3;
-            }
-        }
-    }
-    .bloco-imagem2{
-        display: none;
-        @include breakpoint(lg){
-            width: 18rem;
-            height: 28rem;
-            display: block;
-            float:right;
+            height: 28.5rem;
             overflow: hidden;
             border-radius: 1.5rem;
             background-color: $roxo;
             position: relative;
             .imagem{
-                margin-top: -0.5rem;
+                width: 100%;
+                height: 380px;
+                object-fit: cover;
             }
             .logomarca{
                 width: 8rem;
@@ -84,10 +22,77 @@
                 transform: translateX(-50%);
             }
         }
+        .bloco-descricao{
+            width: 100%;
+            margin-top: 1.5rem;
+            @include breakpoint(lg){
+                width: 95%;
+                float: right;
+                margin-top: 0;
+            }
+            .titulo{
+                @include title(2rem, 700, $cinza3, false);
+                span{
+                    color: $roxo;
+                }
+            }
+            .descricao{
+                margin-top: 1rem;
+                font-weight: 300;
+                font-size: 1.3rem;
+                color: $cinza3;
+            }
+        }
     }
-    .fale-conosco{
-        position: absolute;
-        bottom: -3rem;
-        @include button-verde;
+    .tunel-de-vento-topicos{
+        margin-top: 2.5rem;
+        .bloco-topico{
+            margin-bottom: 2.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .bloco-conteudo{
+                .titulo{
+                    @include title(2rem, 700, $cinza3, false);
+                }
+                .descricao{
+                    margin-top: 0.5rem;
+                    font-weight: 300;
+                    font-size: 1.3rem;
+                    color: $cinza3;
+                }
+            }
+        }
+        .bloco-imagem{
+            display: none;
+            @include breakpoint(lg){
+                width: 18rem;
+                height: 28rem;
+                display: block;
+                float:right;
+                overflow: hidden;
+                border-radius: 1.5rem;
+                background-color: $roxo;
+                position: relative;
+                .imagem{
+                    margin-top: -0.5rem;
+                }
+                .logomarca{
+                    width: 8rem;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 1.3rem;
+                    transform: translateX(-45%);
+                }
+            }
+        }
+        .fale-conosco{
+            position: absolute;
+            bottom: -2rem;
+            @include button-verde;
+        }
     }
 }

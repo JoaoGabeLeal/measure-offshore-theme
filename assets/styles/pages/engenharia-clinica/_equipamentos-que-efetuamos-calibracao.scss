@@ -21,6 +21,10 @@
                 width: 100%;
                 height: 264px;
                 margin-top: -0.5rem;
+                object-fit: cover;
+                @include breakpoint(lg){
+                    object-fit: initial;
+                }
             }
             .bloco-titulo{
                 position: relative;

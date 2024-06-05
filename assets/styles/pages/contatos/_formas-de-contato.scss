@@ -15,7 +15,7 @@
             width: 100%;
             margin-top: 0.5rem;
             color: $cinza3;
-            font-weight: 400;
+            font-weight: 300;
             font-size: 1.25rem;
             @include breakpoint(lg){
                 margin-left: 2.5rem;
@@ -33,6 +33,7 @@
                 align-items: center;
                 gap: 0.5rem;
                 color: $cinza3;
+                font-weight: 300;
                 font-size: 1.25rem;
                 .formas-de-contato-topico-lista-item-icone{
                     width: 1.2rem;

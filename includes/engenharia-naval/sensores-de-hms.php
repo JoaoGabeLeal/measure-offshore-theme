@@ -8,7 +8,7 @@
         </div>
         <div class="col-11">
             <div class="bloco-descricao">
-                <h6 class="titulo">Verificação de Sensores de <span>HMS</span>, <span>EPTA</span> e Estação Meteorológica em Helideques</h6>
+                <h6 class="titulo">Verificação de sensores de <span>HMS</span>, <span>EPTA</span> e estação meteorológica em helideques</h6>
                 <p class="descricao">
                     Regula as comunicações entre helideques e aeronaves marítimas. Diretrizes importantes incluem a homologação
                     da sala de rádio como EPTA categoria "M" e a formação específica do radioperador. As informações

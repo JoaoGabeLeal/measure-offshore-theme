@@ -12,7 +12,7 @@
                 <div class="especializados-lista">
                     <a href="http://" title="servicos de calibração de anemometro" class="especializados-item">
                         <img class="imagem" src="<?php echo get_template_directory_uri(); ?>/assets/images/servicos-de-calibracao-de-anemometros.png" alt="serviços de calibração de anemômetro">
-                        <h6 class="titulo">Serviço de Calibração de Anemômetros</h6>
+                        <h6 class="titulo">Serviço de calibração de anemômetros</h6>
                         <p class="descricao">
                             A Measure Offshore atende atualmente a todas as marcas de sensores de vento. 
                             Em casos que não é possível retirar o sensor de operação, nossa equipe vai 
@@ -23,7 +23,7 @@
                     </a>
                     <a href="http://" title="servicos de calibração de anemometro" class="especializados-item">
                         <img class="imagem" src="<?php echo get_template_directory_uri(); ?>/assets/images/calibracao-de-sensores-de-movimento.png" alt="calibração de sensores de movimento">
-                        <h6 class="titulo">Calibração de Sensores de Movimento</h6>
+                        <h6 class="titulo">Calibração de sensores de movimento</h6>
                         <p class="descricao">
                             Para abranger todos os elementos de sua HMS, realizamos a verificação 
                             dos sensores de movimento MRU's, responsáveis por monitorar Pitch, Roll 
@@ -34,20 +34,20 @@
                     </a>
                     <a href="http://" title="servicos de calibração de anemometro" class="especializados-item">
                         <img class="imagem" src="<?php echo get_template_directory_uri(); ?>/assets/images/calibracao-de-termo-higrometros.png" alt="calibração de termo higrometros">
-                        <h6 class="titulo">Calibração de Termo-Higrômetros</h6>
+                        <h6 class="titulo">Calibração de termo-higrômetros</h6>
                         <p class="descricao">
-                            A Measure Offshore emprega Padrões de Referência de última geração, 
-                            permitindo a calibração de sensores de Temperatura, Umidade e DewPoint de 
+                            A Measure Offshore emprega padrões de referência de última geração, 
+                            permitindo a calibração de sensores de temperatura, umidade e dewpoint de 
                             todas as marcas ou modelos com extrema precisão nos resultados.
                         </p>
                         <span class="orcamento-rapido">Orçamento rápido</span>
                     </a>
                     <a href="http://" title="servicos de calibração de anemometro" class="especializados-item">
                         <img class="imagem" src="<?php echo get_template_directory_uri(); ?>/assets/images/servicos-de-calibracao-de-barometros.png" alt="servicos de calibração de barômetros">
-                        <h6 class="titulo">Serviço de Calibração de Barômetros</h6>
+                        <h6 class="titulo">Serviço de calibração de barômetros</h6>
                         <p class="descricao">
                             Para um dos componentes essenciais no apoio de pouso e decolagem, 
-                            os barômetros, fornecendo dados como QNH, QFE e Pressão Local, garantimos 
+                            os barômetros, fornecendo dados como QNH, QFE e pressão local, garantimos 
                             precisão máxima em sua calibração. Utilizamos padrões de referência 
                             certificados pela RBC - Rede Brasileira de Calibração do INMETRO.
                         </p>

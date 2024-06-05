@@ -12,7 +12,7 @@
             <div class="col-20">
                 <p class="bloco-descricao">
                     Realizamos calibração de analisadores de 15ppm, como os modelos OMD-24, OMD-32, 
-                    OMD-2008, entre outros, garantindo a conformidade com os regulamentos do Marpol. 
+                    OMD-2008, entre outros, garantindo a conformidade com os regulamentos do MARPOL. 
                     Além disso, oferecemos serviços de certificação de equipamentos em unidades 
                     marítimas, assegurando o funcionamento adequado dos dispositivos em ambientes 
                     marítimos desafiadores. Para evitar problemas potenciais relacionados à leitura 

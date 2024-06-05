@@ -20,6 +20,8 @@ get_header();
         <?php include(get_template_directory() . "/includes/engenharia-clinica/equipamentos-que-efetuamos-calibracao.php"); ?>
         <?php include(get_template_directory() . "/includes/engenharia-clinica/especificacoes.php"); ?>
     </div>
+    <?php include(get_template_directory() . "/includes/engenharia-clinica/nossas-solucoes.php"); ?>
+    <?php include(get_template_directory() . "/includes/engenharia-clinica/medical-chest.php"); ?>
 
 </div>
 

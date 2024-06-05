@@ -1,4 +1,4 @@
-<div class="servicos-nr-bloco" style="background-color: #56B393">
+<div class="solucoes-nr-bloco" style="background-color: #56B393">
     <div class="container" id="nr12">
         <div class="row">
             <div class="col-20">

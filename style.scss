@@ -47,11 +47,11 @@ Tags: responsivo, negócios, corporativo
 @import 'assets/styles/pages/categorias/_categorias.scss';
 @import 'assets/styles/pages/postagem/_postagem.scss';
 
-@import 'assets/styles/pages/solucoes/_servicos-titulo.scss';
-@import 'assets/styles/pages/solucoes/_servicos-lista.scss';
+@import 'assets/styles/pages/solucoes/_solucoes-titulo.scss';
+@import 'assets/styles/pages/solucoes/_solucoes-lista.scss';
 
-@import 'assets/styles/pages/servicos-nr/_servicos-nr-titulo.scss';
-@import 'assets/styles/pages/servicos-nr/_servicos-nr-bloco.scss';
+@import 'assets/styles/pages/solucoes-nr/_solucoes-nr-bloco.scss';
+@import 'assets/styles/pages/solucoes-nr/_solucoes-nr-titulo.scss';
 
 @import 'assets/styles/pages/manutencao/_servicos-de-manutencao-titulo.scss';
 @import 'assets/styles/pages/manutencao/_manutencao-bloco.scss';
@@ -71,3 +71,5 @@ Tags: responsivo, negócios, corporativo
 @import 'assets/styles/pages/engenharia-clinica/_norma-abnt.scss';
 @import 'assets/styles/pages/engenharia-clinica/_equipamentos-que-efetuamos-calibracao.scss';
 @import 'assets/styles/pages/engenharia-clinica/_especificacoes.scss';
+@import 'assets/styles/pages/engenharia-clinica/_nossas-solucoes.scss';
+@import 'assets/styles/pages/engenharia-clinica/_medical-chest.scss';

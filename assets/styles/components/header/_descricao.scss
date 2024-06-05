@@ -42,7 +42,7 @@
             @include button-verde;
             @include breakpoint(lg){
                 position: absolute;
-                bottom: -1.3rem; // Ajuste para alinhar o link
+                bottom: -1.1rem; // Ajuste para alinhar o link
                 right: 1rem; // Ajuste para alinhar o link
             }
         }
