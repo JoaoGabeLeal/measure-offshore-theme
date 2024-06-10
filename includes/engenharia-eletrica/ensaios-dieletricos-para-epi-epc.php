@@ -1,4 +1,4 @@
-<div class="ensaios-dieletricos-para-epi-epc">
+<div class="ensaios-dieletricos-para-epi-epc" id="dieletrico">
         <div class="row">
             <div class="col-9">
                 <div class="bloco-imagem">

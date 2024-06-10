@@ -47,5 +47,5 @@
             <button class="principais-servicos-saiba-mais">Saiba mais</button>
         </a>
     </div>
-    <!--<a class="principais-servicos-mais-servicos" title="mais-servicos">Mais serviços</a>-->
+    <a class="principais-servicos-mais-servicos" title="mais-servicos" href="<?php echo home_url('/solucoes'); ?>">Mais serviços</a>
 </section>

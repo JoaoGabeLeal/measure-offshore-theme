@@ -1,6 +1,6 @@
 <h1 class="solucoes-lista-titulo">Ensaios e calibração</h1>
 <div class="solucoes-lista">
-    <a href="#" title="pressão" class="solucoes-item">
+    <a href="<?php echo home_url('/calibracao#pressao'); ?>" title="pressão" class="solucoes-item">
         <h6 class="solucoes-titulo">Pressão</h6>
         <p class="solucoes-descricao">
             Na Measure Offshore, oferecemos uma variedade de serviços relacionados à 
@@ -11,7 +11,7 @@
         </p>
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
-    <a href="#" title="temperatura e umidade" class="solucoes-item">
+    <a href="<?php echo home_url('/calibracao#temperatura-e-umidade'); ?>" title="temperatura e umidade" class="solucoes-item">
         <h6 class="solucoes-titulo">Temperatura e Umidade</h6>
         <p class="solucoes-descricao">
             Na Measure Offshore, oferecemos serviços especializados em medição e 
@@ -21,7 +21,7 @@
         </p>
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
-    <a href="#" title="instrumentação" class="solucoes-item">
+    <a href="<?php echo home_url('/calibracao#eletrica-instrumentacao'); ?>" title="instrumentação" class="solucoes-item">
         <h6 class="solucoes-titulo">Instrumentação</h6>
         <p class="solucoes-descricao">
             Na Measure Offshore, oferecemos serviços abrangentes de instrumentação, 
@@ -31,7 +31,7 @@
         </p>
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
-    <a href="#" title="isolação dielétrica" class="solucoes-item">
+    <a href="<?php echo home_url('/engenharia-eletrica#dieletrico'); ?>" title="isolação dielétrica" class="solucoes-item">
         <h6 class="solucoes-titulo">Isolação Dielétrica</h6>
         <p class="solucoes-descricao">
             Na Measure Offshore, oferecemos serviços especializados em testes 
@@ -41,7 +41,7 @@
         </p>
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
-    <a href="#" title="hospitalar" class="solucoes-item">
+    <a href="<?php echo home_url('/engenharia-clinica'); ?>" title="hospitalar" class="solucoes-item">
         <h6 class="solucoes-titulo">Hospitalar</h6>
         <p class="solucoes-descricao">
             Potencializando a eficiência dos equipamentos hospitalares para um 
@@ -51,7 +51,7 @@
         </p>
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
-    <a href="#" title="titulo" class="solucoes-item">
+    <a href="<?php echo home_url('/calibracao#massa'); ?>" title="titulo" class="solucoes-item">
         <h6 class="solucoes-titulo">Massa</h6>
         <p class="solucoes-descricao">
             Na Measure Offshore, oferecemos serviços especializados em medição 
