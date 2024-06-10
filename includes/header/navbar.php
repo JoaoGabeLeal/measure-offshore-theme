@@ -78,32 +78,22 @@
                             <span class="navbar-dropdown-divisor">Divisão de ensaios e calibração</span>
                             <ul class="navbar-dropdown-list">
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="pressão">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/calibracao#pressao'); ?>" title="pressão">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Pressão
                                     </a>
                                 </li>
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="temperatura e umidade">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/calibracao#temeperatura-e-umidade'); ?>" title="temperatura e umidade">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Temperatura e umidade
                                     </a>
                                 </li>
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="elétrica - instrumentação">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/calibracao#eletrica-instrumentacao'); ?>" title="elétrica - instrumentação">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Elétrica - Instrumentação
                                     </a>
                                 </li>
                                 <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="elétrica - isolação diétrica">
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Elétrica - Isolação dielétrica
-                                    </a>
-                                </li>
-                                <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="instrumentos hospitalares">
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Instrumentos hospitalares
-                                    </a>
-                                </li>
-                                <li class="navbar-dropdown-item">
-                                    <a class="navbar-dropdown-link" href="<?php bloginfo('template_url'); ?>" title="massa">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/calibracao#massa'); ?>" title="massa">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Massa
                                     </a>
                                 </li>

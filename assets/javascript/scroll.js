@@ -11,7 +11,7 @@ $(document).ready(function() {
             var navbarHeight = $('.navbar').outerHeight();
 
             // Defina a margem superior como 50px
-            var marginTop = 180;
+            var marginTop = window.innerHeight * 0.2;
 
             // Calcule a posição do elemento, subtraia a altura da barra de navegação e a margem superior
             var pos = $('#' + id).offset().top - navbarHeight - marginTop;

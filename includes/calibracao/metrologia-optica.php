@@ -65,7 +65,7 @@
         </div>
         <div class="row">
             <div class="col-20">
-                <a href="#" title="faça um orçamento" class="orcamento" style="background-color: #68358D">Faça um orçamento</a>
+                <a href="https://wa.me/+5522998622531?text=Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20sobre%20metrologia%20optica" title="faça um orçamento" class="orcamento" style="background-color: #68358D">Faça um orçamento</a>
             </div>
         </div>
     </div>

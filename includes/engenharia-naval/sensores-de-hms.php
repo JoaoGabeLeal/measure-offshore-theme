@@ -16,7 +16,7 @@
                     e condição do mar, entre outros.
                 </p>
             </div>
-            <a href="#" title="contato" class="contato">Fale conosco</a>
+            <a href="https://wa.me/+5522998622531?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20engenharia%20naval" title="contato" class="contato">Fale conosco</a>
         </div>
     </div>
 </div>

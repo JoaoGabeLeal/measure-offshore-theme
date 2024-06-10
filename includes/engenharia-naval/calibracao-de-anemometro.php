@@ -6,7 +6,7 @@
                 <p class="descricao">
                     Qualidade, segurança e precisão <br/>garantidos na calibração do <br/>seu <span>equipamento!</span>
                 </p>
-                <a href="#" title="saiba mais" class="saibamais">Saiba mais</a>
+                <a href="<?php echo home_url('engenharia-naval#tunel-de-vento'); ?>" title="saiba mais" class="saibamais">Saiba mais</a>
             </div>
         </div>
     </div>

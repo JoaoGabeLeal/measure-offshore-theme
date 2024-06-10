@@ -32,7 +32,7 @@
         </div>
         <div class="row">
             <div class="col-20">
-                <a href="#" title="faça um orçamento" class="orcamento">Faça um orçamento</a>
+                <a href="https://wa.me/+5522998622531?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20orçamento%20de%20segurança%20em%20instalações%20em%20eletricidade" title="faça um orçamento" class="orcamento">Faça um orçamento</a>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <h1 class="solucoes-lista-titulo">Engenharia</h1>
 <div class="solucoes-lista">
-    <a href="#" title="engenharia naval" class="solucoes-item">
+    <a href="<?php echo home_url('/engenharia-naval'); ?>" title="engenharia naval" class="solucoes-item">
         <h6 class="solucoes-titulo">Engenharia Naval</h6>
         <p class="solucoes-descricao">
             A Measure Offshore realiza vistorias de segurança em helideques, 
@@ -12,7 +12,7 @@
         </p>
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
-    <a href="#" title="engenharia elétrica" class="solucoes-item">
+    <a href="<?php echo home_url('/engenharia-eletrica'); ?>" title="engenharia elétrica" class="solucoes-item">
         <h6 class="solucoes-titulo">Engenharia Elétrica</h6>
         <p class="solucoes-descricao">
             A Measure Offshore reconhece a importância dos Equipamentos de Proteção 
@@ -23,7 +23,7 @@
         </p>
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
-    <a href="#" title="engenharia clínica" class="solucoes-item">
+    <a href="<?php echo home_url('/engenharia-clinica'); ?>" title="engenharia clínica" class="solucoes-item">
         <h6 class="solucoes-titulo">Engenharia Clínica</h6>
         <p class="solucoes-descricao">
             A Measure Offshore é especializada em Engenharia Clínica e 

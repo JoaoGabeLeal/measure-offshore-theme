@@ -31,7 +31,7 @@
 <div class="fale-conosco-bloco">
     <div class="row">
         <div class="col-20">
-            <a class="fale-conosco" href="#" title="contato">
+            <a class="fale-conosco" href="https://wa.me/+5522998622531?text=Gostaria%20de%20saber%20mais%20sobre%20os%20serviços" title="contato">
                 Fale conosco
             </a>
         </div>

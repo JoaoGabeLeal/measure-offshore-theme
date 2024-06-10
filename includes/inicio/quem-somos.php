@@ -12,5 +12,5 @@
         </p>
         <img class="quem-somos-logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo-colorido-miniatura.png" alt="logomarca"/>
     </div>
-    <a class="quem-somos-saiba-mais" title="saiba mais">Saiba mais</a>
+    <a class="quem-somos-saiba-mais" title="saiba mais" href="<?php echo home_url('/sobre-nos'); ?>">Saiba mais</a>
 </section>

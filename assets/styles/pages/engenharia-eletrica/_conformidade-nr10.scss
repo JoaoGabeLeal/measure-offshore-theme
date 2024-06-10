@@ -25,11 +25,19 @@
             @include title(2rem, 700, $branco);
             margin-top: 2rem;
             margin-bottom: 1rem;
+            @include breakpoint(lg){
+                width: 95%;
+                float: right;
+            }
         }
         .descricao{
             font-weight: 300;
             font-size: 1.3rem;
             color: $branco;
+            @include breakpoint(lg){
+                width: 95%;
+                float: right;
+            }
         }
     }
     .bloco-logomarca{

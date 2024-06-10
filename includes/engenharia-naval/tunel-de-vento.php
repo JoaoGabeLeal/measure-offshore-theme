@@ -1,4 +1,4 @@
-<div class="tunel-de-vento">
+<div class="tunel-de-vento" id="tunel-de-vento">
     <div class="tunel-de-vento-apresentacao">
         <div class="container">
             <div class="row">
@@ -72,7 +72,7 @@
             </div>
             <div class="row" style="margin-top: 3rem">
                 <div class="col-20">
-                    <a href="#" title="fale conosco" class="fale-conosco">Fale conosco</a>
+                    <a href="https://wa.me/+5522998622531?text=Gostaria%20de%20saber%20mais%20sobre%20o%20túnel%20de%20vento" title="fale conosco" class="fale-conosco">Fale conosco</a>
                 </div>
             </div>
         </div>

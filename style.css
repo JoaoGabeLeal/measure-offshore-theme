@@ -384,7 +384,7 @@ Tags: responsivo, negócios, corporativo
 @media (min-width: 1370px) {
   .navbar .navbar-dropdown {
     width: 18rem;
-    height: 45rem;
+    height: 36.5rem;
   }
 }
 .navbar .navbar-dropdown .navbar-dropdown-titulo {
@@ -2690,10 +2690,22 @@ Tags: responsivo, negócios, corporativo
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+@media (min-width: 992px) {
+  .conformidade-nr10 .bloco-descricao .titulo {
+    width: 95%;
+    float: right;
+  }
+}
 .conformidade-nr10 .bloco-descricao .descricao {
   font-weight: 300;
   font-size: 1.3rem;
   color: #ffffff;
+}
+@media (min-width: 992px) {
+  .conformidade-nr10 .bloco-descricao .descricao {
+    width: 95%;
+    float: right;
+  }
 }
 .conformidade-nr10 .bloco-logomarca {
   width: 95%;

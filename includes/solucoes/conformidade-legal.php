@@ -1,6 +1,6 @@
 <h1 class="solucoes-lista-titulo">Conformidade legal</h1>
 <div class="solucoes-lista">
-    <a href="#" title="nr10" class="solucoes-item">
+    <a href="<?php echo home_url('/solucoes-nr#nr10'); ?>" title="nr10" class="solucoes-item">
         <h6 class="solucoes-titulo">NR 10</h6>
         <p class="solucoes-descricao">
             A conformidade com a NR10 é essencial para os serviços da 
@@ -11,7 +11,7 @@
         </p>
         <button class="solucoes-saibamais">Saiba mais</button>
     </a>
-    <a href="#" title="nr12" class="solucoes-item">
+    <a href="<?php echo home_url('/solucoes-nr#nr12'); ?>" title="nr12" class="solucoes-item">
         <h6 class="solucoes-titulo">NR 12</h6>
         <p class="solucoes-descricao">
             A conformidade com a NR12 é uma característica fundamental dos 
@@ -22,7 +22,7 @@
         </p>
         <button class="solucoes-saibamais">Saiba mais</button>
     </a>
-    <a href="#" title="nr13" class="solucoes-item">
+    <a href="<?php echo home_url('/solucoes-nr#nr13'); ?>" title="nr13" class="solucoes-item">
         <h6 class="solucoes-titulo">NR 13</h6>
         <p class="solucoes-descricao">
             A conformidade com a NR13 é garantida pela Measure Offshore em 
@@ -32,7 +32,7 @@
         </p>
         <button class="solucoes-saibamais">Saiba mais</button>
     </a>
-    <a href="#" title="nr33" class="solucoes-item">
+    <a href="<?php echo home_url('/solucoes-nr#nr33'); ?>" title="nr33" class="solucoes-item">
         <h6 class="solucoes-titulo">NR 33</h6>
         <p class="solucoes-descricao">
             A conformidade com a NR33 é crucial nos serviços da Measure 
@@ -44,7 +44,7 @@
         </p>
         <button class="solucoes-saibamais">Saiba mais</button>
     </a>
-    <a href="#" title="titulo" class="solucoes-item">
+    <a href="<?php echo home_url('/solucoes-nr#nr35'); ?>" title="titulo" class="solucoes-item">
         <h6 class="solucoes-titulo">NR 35</h6>
         <p class="solucoes-descricao">
             Nossos técnicos, em conformidade com a NR35, estão aptos a 
@@ -55,7 +55,7 @@
         </p>
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
-    <a href="#" title="titulo" class="solucoes-item">
+    <a href="<?php echo home_url('/solucoes-nr#nr37'); ?>" title="titulo" class="solucoes-item">
         <h6 class="solucoes-titulo">NR 37</h6>
         <p class="solucoes-descricao">
             A Measure Offshore adere estritamente à NR37, garantindo 

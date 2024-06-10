@@ -1,7 +1,7 @@
 <section class="principais-servicos">
     <h1 class="principais-solucoes-titulo">Principais serviços</h1>
     <div class="principais-servicos-loop">
-        <a href="#" title="calibração" class="principais-solucoes-item">
+        <a href="<?php echo home_url('/calibracao'); ?>" title="calibração" class="principais-solucoes-item">
             <img class="principais-servicos-img" src="<?php bloginfo('template_url'); ?>/assets/images/servico-calibracao.png" alt="calibração">
             <div class="principais-servicos-marca">
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-branco-icone.png" alt="icone measure">
@@ -13,7 +13,7 @@
             </p>
             <button class="principais-servicos-saiba-mais">Saiba mais</button>
         </a>
-        <a href="#" title="calibração" class="principais-solucoes-item">
+        <a href="<?php echo home_url('/manutencao'); ?>" title="manutencao" class="principais-solucoes-item">
             <img class="principais-servicos-img" src="<?php bloginfo('template_url'); ?>/assets/images/servico-manutencao.png" alt="manutenção">
             <div class="principais-servicos-marca">
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-branco-icone.png" alt="icone measure">
@@ -24,7 +24,7 @@
             </p>
             <button class="principais-servicos-saiba-mais">Saiba mais</button>
         </a>
-        <a href="#" title="calibração" class="principais-solucoes-item">
+        <a href="<?php echo home_url('/engenharia-clinica'); ?>" title="engenharia clinica" class="principais-solucoes-item">
             <img class="principais-servicos-img" src="<?php bloginfo('template_url'); ?>/assets/images/servico-engenharia-clinica.png" alt="engenharia clínica">
             <div class="principais-servicos-marca">
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-branco-icone.png" alt="icone measure">
@@ -35,7 +35,7 @@
             </p>
             <button class="principais-servicos-saiba-mais">Saiba mais</button>
         </a>
-        <a href="#" title="calibração" class="principais-solucoes-item">
+        <a href="<?php echo home_url('/engenharia-eletrica#ensaios'); ?>" title="ensaio" class="principais-solucoes-item">
             <img class="principais-servicos-img" src="<?php bloginfo('template_url'); ?>/assets/images/servico-ensaio.png" alt="ensaio">
             <div class="principais-servicos-marca">
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-branco-icone.png" alt="icone measure">
@@ -47,5 +47,5 @@
             <button class="principais-servicos-saiba-mais">Saiba mais</button>
         </a>
     </div>
-    <a class="principais-servicos-mais-servicos" title="mais-servicos">Mais serviços</a>
+    <!--<a class="principais-servicos-mais-servicos" title="mais-servicos">Mais serviços</a>-->
 </section>
