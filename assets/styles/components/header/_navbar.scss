@@ -37,7 +37,7 @@
             margin-top: -1.8rem;
             margin-left: 12rem;
             display: flex;
-            gap: 1rem;
+            gap: 1.875rem;
         }
         .navbar-item{
             list-style: none;
@@ -77,8 +77,8 @@
         }
     }
     .navbar-dropdown{
-        width: 43.1rem;
-        height: 22rem;
+        width: 40rem;
+        height: auto;
         padding: 1rem;
         border-radius: 0.5rem;
         background-color: $roxo;
@@ -88,7 +88,7 @@
         z-index: 99999;
         @include breakpoint(xxl){
             width: 18rem;
-            height: 36.5rem;
+            height: auto;
         }
         .navbar-dropdown-titulo{
             display: flex;
@@ -101,7 +101,8 @@
         }
         .navbar-dropdown-conteudo{
             display: flex;
-            gap: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
             @include breakpoint(xxl){
                 display: block;
             }
@@ -119,6 +120,9 @@
                     .navbar-dropdown-item{
                         list-style: none;
                         margin-bottom: 1rem;
+                        &:last-child{
+                            margin-bottom: 0.8rem;
+                        }
                         .navbar-dropdown-link{
                             display: flex;
                             align-items: center;

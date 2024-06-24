@@ -12,7 +12,7 @@
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
     <a href="<?php echo home_url('/calibracao#temperatura-e-umidade'); ?>" title="temperatura e umidade" class="solucoes-item">
-        <h6 class="solucoes-titulo">Temperatura e Umidade</h6>
+        <h6 class="solucoes-titulo">Temperatura e umidade</h6>
         <p class="solucoes-descricao">
             Na Measure Offshore, oferecemos serviços especializados em medição e 
             controle de temperatura e umidade. Realizamos calibração e 
@@ -32,7 +32,7 @@
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
     <a href="<?php echo home_url('/engenharia-eletrica#dieletrico'); ?>" title="isolação dielétrica" class="solucoes-item">
-        <h6 class="solucoes-titulo">Isolação Dielétrica</h6>
+        <h6 class="solucoes-titulo">Isolação dielétrica</h6>
         <p class="solucoes-descricao">
             Na Measure Offshore, oferecemos serviços especializados em testes 
             e ensaios de isolamento dielétrico. Nossa equipe realiza inspeções 

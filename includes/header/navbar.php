@@ -93,6 +93,16 @@
                                     </a>
                                 </li>
                                 <li class="navbar-dropdown-item">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/engenharia-eletrica/#dieletrico'); ?>" title="elétrica - instrumentação">
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Elétrica - Isolação dielétrica
+                                    </a>
+                                </li>
+                                <li class="navbar-dropdown-item">
+                                    <a class="navbar-dropdown-link" href="<?php echo home_url('/engenharia-clinica/'); ?>" title="elétrica - instrumentação">
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Instrumentos hospitalares
+                                    </a>
+                                </li>
+                                <li class="navbar-dropdown-item">
                                     <a class="navbar-dropdown-link" href="<?php echo home_url('/calibracao#massa'); ?>" title="massa">
                                         <img src="<?php bloginfo('template_url'); ?>/assets/icons/dropdown.svg" alt="icone dropdown item">Massa
                                     </a>
@@ -113,7 +123,7 @@
                 </a>
             </li>
             <li class="navbar-item">
-                <a class="navbar-link" href="<?php bloginfo('template_url'); ?>" title="área do cliente">
+                <a class="navbar-link" href="https://drive1.measureoffshore.com.br/index.php/login" target="_blank" title="área do cliente">
                     Área do cliente
                 </a>
             </li>

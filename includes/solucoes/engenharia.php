@@ -1,7 +1,7 @@
 <h1 class="solucoes-lista-titulo">Engenharia</h1>
 <div class="solucoes-lista">
     <a href="<?php echo home_url('/engenharia-naval'); ?>" title="engenharia naval" class="solucoes-item">
-        <h6 class="solucoes-titulo">Engenharia Naval</h6>
+        <h6 class="solucoes-titulo">Engenharia naval</h6>
         <p class="solucoes-descricao">
             A Measure Offshore realiza vistorias de segurança em helideques, 
             incluindo a calibração de equipamentos como estações meteorológicas 
@@ -13,7 +13,7 @@
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
     <a href="<?php echo home_url('/engenharia-eletrica'); ?>" title="engenharia elétrica" class="solucoes-item">
-        <h6 class="solucoes-titulo">Engenharia Elétrica</h6>
+        <h6 class="solucoes-titulo">Engenharia elétrica</h6>
         <p class="solucoes-descricao">
             A Measure Offshore reconhece a importância dos Equipamentos de Proteção 
             Individual (EPIs) para a segurança dos profissionais em diversos 
@@ -24,7 +24,7 @@
         <button class="solucoes-saibamais" aria-label="saiba mais">Saiba mais</button>
     </a>
     <a href="<?php echo home_url('/engenharia-clinica'); ?>" title="engenharia clínica" class="solucoes-item">
-        <h6 class="solucoes-titulo">Engenharia Clínica</h6>
+        <h6 class="solucoes-titulo">Engenharia clínica</h6>
         <p class="solucoes-descricao">
             A Measure Offshore é especializada em Engenharia Clínica e 
             oferece serviços de gestão e manutenção predial hospitalar em instalações 

@@ -21,7 +21,7 @@ Tags: responsivo, negócios, corporativo
 .content {
   padding-top: 2rem;
   position: relative;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   z-index: 1;
 }
 @media (min-width: 992px) {
@@ -255,7 +255,7 @@ Tags: responsivo, negócios, corporativo
 .barra-superior .barra-superior-conteudo .email-telefone {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.875rem;
 }
 .barra-superior .barra-superior-conteudo .email-telefone .email {
   display: flex;
@@ -281,7 +281,7 @@ Tags: responsivo, negócios, corporativo
     margin-top: 0.4rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 }
 
@@ -329,7 +329,7 @@ Tags: responsivo, negócios, corporativo
     margin-top: -1.8rem;
     margin-left: 12rem;
     display: flex;
-    gap: 1rem;
+    gap: 1.875rem;
   }
 }
 .navbar .navbar-list .navbar-item {
@@ -371,8 +371,8 @@ Tags: responsivo, negócios, corporativo
   }
 }
 .navbar .navbar-dropdown {
-  width: 43.1rem;
-  height: 22rem;
+  width: 40rem;
+  height: auto;
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: #68358D;
@@ -384,7 +384,7 @@ Tags: responsivo, negócios, corporativo
 @media (min-width: 1370px) {
   .navbar .navbar-dropdown {
     width: 18rem;
-    height: 36.5rem;
+    height: auto;
   }
 }
 .navbar .navbar-dropdown .navbar-dropdown-titulo {
@@ -398,7 +398,8 @@ Tags: responsivo, negócios, corporativo
 }
 .navbar .navbar-dropdown .navbar-dropdown-conteudo {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 @media (min-width: 1370px) {
   .navbar .navbar-dropdown .navbar-dropdown-conteudo {
@@ -419,6 +420,9 @@ Tags: responsivo, negócios, corporativo
 .navbar .navbar-dropdown .navbar-dropdown-conteudo .navbar-dropdown-topico .navbar-dropdown-list .navbar-dropdown-item {
   list-style: none;
   margin-bottom: 1rem;
+}
+.navbar .navbar-dropdown .navbar-dropdown-conteudo .navbar-dropdown-topico .navbar-dropdown-list .navbar-dropdown-item:last-child {
+  margin-bottom: 0.8rem;
 }
 .navbar .navbar-dropdown .navbar-dropdown-conteudo .navbar-dropdown-topico .navbar-dropdown-list .navbar-dropdown-item .navbar-dropdown-link {
   display: flex;
@@ -639,6 +643,7 @@ Tags: responsivo, negócios, corporativo
 }
 .comment-list .comment .comment-body {
   border: 0.2rem solid #68358D;
+  margin-bottom: 1rem !important;
   border-radius: 1rem;
   padding: 1rem;
 }
